@@ -33,3 +33,4 @@
 
 # My ignore
 cmake-build-debug
+.idea
