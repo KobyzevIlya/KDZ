@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+SecondIverson values 0-5;2495;8378;17191;22736;32687;43777
+SecondIverson sorted values 0-5;9;0;99;107;100;100
+SecondIverson almost sorted values 0-5;16;133;579;1679;4285;8524
+SecondIverson reversed values 0-5;396;3439;8281;22911;24736;38696
+SecondIverson values 0-4000;2661;9596;18250;27503;37482;50367
+SecondIverson sorted values 0-4000;2;0;0;100;100;100
+SecondIverson almost sorted values 0-4000;37;299;1046;2941;5566;11033
+SecondIverson reversed values 0-4000;1241;4076;7509;12694;20338;29955

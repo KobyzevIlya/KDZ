@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+ShellSort values 0-5;792;1576;2612;3383;4737;5389
+ShellSort sorted values 0-5;110;391;600;805;1122;1500
+ShellSort almost sorted values 0-5;142;397;661;975;1193;1660
+ShellSort reversed values 0-5;143;455;833;1181;1720;2182
+ShellSort values 0-4000;971;2452;4048;6121;8204;9764
+ShellSort sorted values 0-4000;110;396;609;817;1023;1500
+ShellSort almost sorted values 0-4000;158;453;814;1066;1430;2036
+ShellSort reversed values 0-4000;213;713;1010;1427;1977;2708

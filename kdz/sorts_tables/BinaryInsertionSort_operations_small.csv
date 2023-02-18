@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+BinaryInsertionSort values 0-5;0;0;0;0;0;0
+BinaryInsertionSort sorted values 0-5;0;0;0;0;0;0
+BinaryInsertionSort almost sorted values 0-5;0;0;0;0;0;0
+BinaryInsertionSort reversed values 0-5;0;0;0;0;0;0
+BinaryInsertionSort values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort sorted values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort almost sorted values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort reversed values 0-4000;0;0;0;0;0;0

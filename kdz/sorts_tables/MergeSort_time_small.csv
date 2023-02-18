@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+MergeSort values 0-5;1855;3650;5082;7225;8991;11173
+MergeSort sorted values 0-5;910;1859;2831;4477;5209;6856
+MergeSort almost sorted values 0-5;930;1967;3019;4447;5255;7159
+MergeSort reversed values 0-5;946;2122;3686;5695;6157;7378
+MergeSort values 0-4000;1803;4075;6312;8941;11606;14791
+MergeSort sorted values 0-4000;838;1811;3656;4301;5638;6375
+MergeSort almost sorted values 0-4000;955;2010;3392;4565;5508;6810
+MergeSort reversed values 0-4000;905;2013;2868;4071;5075;6343

@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+SelectionSort values 0-5;366;793;1232;1688;2128;2574
+SelectionSort sorted values 0-5;0;100;200;300;400;500
+SelectionSort almost sorted values 0-5;56;259;462;634;687;655
+SelectionSort reversed values 0-5;42;449;872;1377;1952;2622
+SelectionSort values 0-4000;552;1383;2284;3256;4228;5232
+SelectionSort sorted values 0-4000;0;100;200;300;400;500
+SelectionSort almost sorted values 0-4000;60;243;434;604;669;600
+SelectionSort reversed values 0-4000;1854;7420;16583;29358;45724;65716

@@ -1,0 +1,105 @@
+Sort;50;100;150;200;250;300
+BinaryInsertionSort values 0-5;0;0;0;0;0;0
+BinaryInsertionSort sorted values 0-5;0;0;0;0;0;0
+BinaryInsertionSort almost sorted values 0-5;0;0;0;0;0;0
+BinaryInsertionSort reversed values 0-5;0;0;0;0;0;0
+BinaryInsertionSort values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort sorted values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort almost sorted values 0-4000;0;0;0;0;0;0
+BinaryInsertionSort reversed values 0-4000;0;0;0;0;0;0
+BubbleSort values 0-5;0;0;0;0;0;0
+BubbleSort sorted values 0-5;0;0;0;0;0;0
+BubbleSort almost sorted values 0-5;0;0;0;0;0;0
+BubbleSort reversed values 0-5;0;0;0;0;0;0
+BubbleSort values 0-4000;0;0;0;0;0;0
+BubbleSort sorted values 0-4000;0;0;0;0;0;0
+BubbleSort almost sorted values 0-4000;0;0;0;0;0;0
+BubbleSort reversed values 0-4000;0;0;0;0;0;0
+CountingSort values 0-5;0;0;0;0;0;0
+CountingSort sorted values 0-5;0;0;0;0;0;0
+CountingSort almost sorted values 0-5;0;0;0;0;0;0
+CountingSort reversed values 0-5;0;0;0;0;0;0
+CountingSort values 0-4000;0;0;0;0;0;0
+CountingSort sorted values 0-4000;0;0;0;0;0;0
+CountingSort almost sorted values 0-4000;0;0;0;0;0;0
+CountingSort reversed values 0-4000;0;0;0;0;0;0
+FirstIverson values 0-5;0;0;0;0;0;0
+FirstIverson sorted values 0-5;0;0;0;0;0;0
+FirstIverson almost sorted values 0-5;0;0;0;0;0;0
+FirstIverson reversed values 0-5;0;0;0;0;0;0
+FirstIverson values 0-4000;0;0;0;0;0;0
+FirstIverson sorted values 0-4000;0;0;0;0;0;0
+FirstIverson almost sorted values 0-4000;0;0;0;0;0;0
+FirstIverson reversed values 0-4000;0;0;0;0;0;0
+HeapSort values 0-5;0;0;0;0;0;0
+HeapSort sorted values 0-5;0;0;0;0;0;0
+HeapSort almost sorted values 0-5;0;0;0;0;0;0
+HeapSort reversed values 0-5;0;0;0;0;0;0
+HeapSort values 0-4000;0;0;0;0;0;0
+HeapSort sorted values 0-4000;0;0;0;0;0;0
+HeapSort almost sorted values 0-4000;0;0;0;0;0;0
+HeapSort reversed values 0-4000;0;0;0;0;0;0
+InsertionSort values 0-5;0;0;0;0;0;0
+InsertionSort sorted values 0-5;0;0;0;0;0;0
+InsertionSort almost sorted values 0-5;0;0;0;0;0;0
+InsertionSort reversed values 0-5;0;0;0;0;0;0
+InsertionSort values 0-4000;0;0;0;0;0;0
+InsertionSort sorted values 0-4000;0;0;0;0;0;0
+InsertionSort almost sorted values 0-4000;0;0;0;0;0;0
+InsertionSort reversed values 0-4000;0;0;0;0;0;0
+MergeSort values 0-5;0;0;0;0;0;0
+MergeSort sorted values 0-5;0;0;0;0;0;0
+MergeSort almost sorted values 0-5;0;0;0;0;0;0
+MergeSort reversed values 0-5;0;0;0;0;0;0
+MergeSort values 0-4000;0;0;0;0;0;0
+MergeSort sorted values 0-4000;0;0;0;0;0;0
+MergeSort almost sorted values 0-4000;0;0;0;0;0;0
+MergeSort reversed values 0-4000;0;0;0;0;0;0
+QuickSort values 0-5;0;0;0;0;0;0
+QuickSort sorted values 0-5;0;0;0;0;0;0
+QuickSort almost sorted values 0-5;0;0;0;0;0;0
+QuickSort reversed values 0-5;0;0;0;0;0;0
+QuickSort values 0-4000;0;0;0;0;0;0
+QuickSort sorted values 0-4000;0;0;0;0;0;0
+QuickSort almost sorted values 0-4000;0;0;0;0;0;0
+QuickSort reversed values 0-4000;0;0;0;0;0;0
+RadixSort values 0-5;0;0;0;0;0;0
+RadixSort sorted values 0-5;0;0;0;0;0;0
+RadixSort almost sorted values 0-5;0;0;0;0;0;0
+RadixSort reversed values 0-5;0;0;0;0;0;0
+RadixSort values 0-4000;0;0;0;0;0;0
+RadixSort sorted values 0-4000;0;0;0;0;0;0
+RadixSort almost sorted values 0-4000;0;0;0;0;0;0
+RadixSort reversed values 0-4000;0;0;0;0;0;0
+SecondIverson values 0-5;0;0;0;0;0;0
+SecondIverson sorted values 0-5;0;0;0;0;0;0
+SecondIverson almost sorted values 0-5;0;0;0;0;0;0
+SecondIverson reversed values 0-5;0;0;0;0;0;0
+SecondIverson values 0-4000;0;0;0;0;0;0
+SecondIverson sorted values 0-4000;0;0;0;0;0;0
+SecondIverson almost sorted values 0-4000;0;0;0;0;0;0
+SecondIverson reversed values 0-4000;0;0;0;0;0;0
+SelectionSort values 0-5;366;793;1232;1688;2128;2574
+SelectionSort sorted values 0-5;0;100;200;300;400;500
+SelectionSort almost sorted values 0-5;56;259;462;634;687;655
+SelectionSort reversed values 0-5;42;449;872;1377;1952;2622
+SelectionSort values 0-4000;552;1383;2284;3256;4228;5232
+SelectionSort sorted values 0-4000;0;100;200;300;400;500
+SelectionSort almost sorted values 0-4000;60;243;434;604;669;600
+SelectionSort reversed values 0-4000;1854;7420;16583;29358;45724;65716
+ShellSortCiura values 0-5;0;0;0;0;0;0
+ShellSortCiura sorted values 0-5;0;0;0;0;0;0
+ShellSortCiura almost sorted values 0-5;0;0;0;0;0;0
+ShellSortCiura reversed values 0-5;0;0;0;0;0;0
+ShellSortCiura values 0-4000;0;0;0;0;0;0
+ShellSortCiura sorted values 0-4000;0;0;0;0;0;0
+ShellSortCiura almost sorted values 0-4000;0;0;0;0;0;0
+ShellSortCiura reversed values 0-4000;0;0;0;0;0;0
+ShellSort values 0-5;0;0;0;0;0;0
+ShellSort sorted values 0-5;0;0;0;0;0;0
+ShellSort almost sorted values 0-5;0;0;0;0;0;0
+ShellSort reversed values 0-5;0;0;0;0;0;0
+ShellSort values 0-4000;0;0;0;0;0;0
+ShellSort sorted values 0-4000;0;0;0;0;0;0
+ShellSort almost sorted values 0-4000;0;0;0;0;0;0
+ShellSort reversed values 0-4000;0;0;0;0;0;0

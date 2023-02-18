@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+InsertionSort values 0-5;541;1437;2728;4500;6475;8988
+InsertionSort sorted values 0-5;1;0;100;100;157;200
+InsertionSort almost sorted values 0-5;5;53;107;157;218;266
+InsertionSort reversed values 0-5;44;1094;3020;6317;9647;14403
+InsertionSort values 0-4000;499;1504;2881;4714;7146;9386
+InsertionSort sorted values 0-4000;10;103;100;100;200;200
+InsertionSort almost sorted values 0-4000;8;50;117;176;220;289
+InsertionSort reversed values 0-4000;615;1940;4271;9172;12092;17179

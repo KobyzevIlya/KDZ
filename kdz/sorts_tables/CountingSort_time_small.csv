@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+CountingSort values 0-5;224;248;362;480;613;773
+CountingSort sorted values 0-5;167;311;489;634;803;989
+CountingSort almost sorted values 0-5;198;330;497;640;808;1002
+CountingSort reversed values 0-5;291;620;1000;1302;1677;2001
+CountingSort values 0-4000;5356;5837;6664;6407;6688;7188
+CountingSort sorted values 0-4000;1369;2723;4122;5230;6374;7461
+CountingSort almost sorted values 0-4000;1758;2955;4406;5145;6271;7869
+CountingSort reversed values 0-4000;1208;2375;3537;4631;5990;7219

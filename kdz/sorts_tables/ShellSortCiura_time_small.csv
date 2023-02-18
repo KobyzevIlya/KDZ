@@ -1,0 +1,9 @@
+Sort;50;100;150;200;250;300
+ShellSortCiura values 0-5;839;1758;2939;3969;5064;6257
+ShellSortCiura sorted values 0-5;109;312;549;777;985;1094
+ShellSortCiura almost sorted values 0-5;163;366;607;811;1077;1364
+ShellSortCiura reversed values 0-5;114;342;644;984;1356;1595
+ShellSortCiura values 0-4000;1159;3094;4738;7203;8649;11676
+ShellSortCiura sorted values 0-4000;101;285;403;601;800;1001
+ShellSortCiura almost sorted values 0-4000;126;346;559;930;1067;1346
+ShellSortCiura reversed values 0-4000;158;416;756;1164;1482;1606
