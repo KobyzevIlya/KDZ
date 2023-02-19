@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  19 FEB 2023 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  19 FEB 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1398,23 +1398,23 @@ l.52 ...ЅРёРµ РІСЂРµРјРµРЅРё}{28}{subsection.13.1}
 \openout6 = `kdz.toc'.
 
  [2] [3]
-<kdz_files/kdz_12_0.png, id=296, 899.7615pt x 433.62pt>
+<kdz_files/kdz_12_0.png, id=361, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_12_0.png Graphic file (type png)
 <use kdz_files/kdz_12_0.png>
 Package pdftex.def Info: kdz_files/kdz_12_0.png  used on input line 411.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_13_0.png, id=298, 883.8621pt x 433.62pt>
+<kdz_files/kdz_13_0.png, id=363, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_13_0.png Graphic file (type png)
 <use kdz_files/kdz_13_0.png>
 Package pdftex.def Info: kdz_files/kdz_13_0.png  used on input line 416.
 (pdftex.def)             Requested size: 883.85994pt x 433.61894pt.
-<kdz_files/kdz_14_0.png, id=299, 899.7615pt x 433.62pt>
+<kdz_files/kdz_14_0.png, id=364, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_14_0.png Graphic file (type png)
 <use kdz_files/kdz_14_0.png>
 Package pdftex.def Info: kdz_files/kdz_14_0.png  used on input line 432.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [4 <./kdz_files/kdz_12_0.png> <./kdz_files/kdz_13_0.png>]
-<kdz_files/kdz_15_0.png, id=309, 883.8621pt x 433.62pt>
+<kdz_files/kdz_15_0.png, id=374, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_15_0.png Graphic file (type png)
 <use kdz_files/kdz_15_0.png>
 Package pdftex.def Info: kdz_files/kdz_15_0.png  used on input line 437.
@@ -1424,373 +1424,373 @@ Underfull \hbox (badness 1337) in paragraph at lines 458--462
 \T2A/cmr/bx/n/10.95 Сортировка пу-зырь-ком \T2A/cmr/m/n/10.95 ^^V это ал-го-ритм сор-ти-ров-ки, ко-то-рый про-хо-дит че-рез мас-сив
  []
 
-<kdz_files/kdz_16_0.png, id=316, 899.7615pt x 433.62pt>
+<kdz_files/kdz_16_0.png, id=381, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_16_0.png Graphic file (type png)
 <use kdz_files/kdz_16_0.png>
 Package pdftex.def Info: kdz_files/kdz_16_0.png  used on input line 467.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_17_0.png, id=317, 874.467pt x 433.62pt>
+<kdz_files/kdz_17_0.png, id=382, 874.467pt x 433.62pt>
 File: kdz_files/kdz_17_0.png Graphic file (type png)
 <use kdz_files/kdz_17_0.png>
 Package pdftex.def Info: kdz_files/kdz_17_0.png  used on input line 472.
 (pdftex.def)             Requested size: 874.46486pt x 433.61894pt.
-<kdz_files/kdz_18_0.png, id=318, 905.5431pt x 433.62pt>
+<kdz_files/kdz_18_0.png, id=383, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_18_0.png Graphic file (type png)
 <use kdz_files/kdz_18_0.png>
 Package pdftex.def Info: kdz_files/kdz_18_0.png  used on input line 488.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
 [6 <./kdz_files/kdz_16_0.png> <./kdz_files/kdz_17_0.png>]
-<kdz_files/kdz_19_0.png, id=326, 874.467pt x 433.62pt>
+<kdz_files/kdz_19_0.png, id=391, 874.467pt x 433.62pt>
 File: kdz_files/kdz_19_0.png Graphic file (type png)
 <use kdz_files/kdz_19_0.png>
 Package pdftex.def Info: kdz_files/kdz_19_0.png  used on input line 493.
 (pdftex.def)             Requested size: 874.46486pt x 433.61894pt.
  [7 <./kdz_files/kdz_18_0.png> <./kdz_files/kdz_19_0.png>]
-<kdz_files/kdz_20_0.png, id=333, 899.7615pt x 433.62pt>
+<kdz_files/kdz_20_0.png, id=398, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_20_0.png Graphic file (type png)
 <use kdz_files/kdz_20_0.png>
 Package pdftex.def Info: kdz_files/kdz_20_0.png  used on input line 521.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_21_0.png, id=334, 883.8621pt x 433.62pt>
+<kdz_files/kdz_21_0.png, id=399, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_21_0.png Graphic file (type png)
 <use kdz_files/kdz_21_0.png>
 Package pdftex.def Info: kdz_files/kdz_21_0.png  used on input line 526.
 (pdftex.def)             Requested size: 883.85994pt x 433.61894pt.
-<kdz_files/kdz_22_0.png, id=335, 905.5431pt x 433.62pt>
+<kdz_files/kdz_22_0.png, id=400, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_22_0.png Graphic file (type png)
 <use kdz_files/kdz_22_0.png>
 Package pdftex.def Info: kdz_files/kdz_22_0.png  used on input line 536.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [8 <./kdz_files/kdz_20_0.png> <./kdz_files/kdz_21_0.png>]
-<kdz_files/kdz_23_0.png, id=342, 874.467pt x 433.62pt>
+<kdz_files/kdz_23_0.png, id=407, 874.467pt x 433.62pt>
 File: kdz_files/kdz_23_0.png Graphic file (type png)
 <use kdz_files/kdz_23_0.png>
 Package pdftex.def Info: kdz_files/kdz_23_0.png  used on input line 541.
 (pdftex.def)             Requested size: 874.46486pt x 433.61894pt.
  [9 <./kdz_files/kdz_22_0.png> <./kdz_files/kdz_23_0.png>]
-<kdz_files/kdz_24_0.png, id=349, 899.7615pt x 433.62pt>
+<kdz_files/kdz_24_0.png, id=414, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_24_0.png Graphic file (type png)
 <use kdz_files/kdz_24_0.png>
 Package pdftex.def Info: kdz_files/kdz_24_0.png  used on input line 570.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_25_0.png, id=350, 874.467pt x 433.62pt>
+<kdz_files/kdz_25_0.png, id=415, 874.467pt x 433.62pt>
 File: kdz_files/kdz_25_0.png Graphic file (type png)
 <use kdz_files/kdz_25_0.png>
 Package pdftex.def Info: kdz_files/kdz_25_0.png  used on input line 575.
 (pdftex.def)             Requested size: 874.46486pt x 433.61894pt.
-<kdz_files/kdz_26_0.png, id=351, 905.5431pt x 433.62pt>
+<kdz_files/kdz_26_0.png, id=416, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_26_0.png Graphic file (type png)
 <use kdz_files/kdz_26_0.png>
 Package pdftex.def Info: kdz_files/kdz_26_0.png  used on input line 585.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [10 <./kdz_files/kdz_24_0.png> <./kdz_files/kdz_25_0.png>]
-<kdz_files/kdz_27_0.png, id=358, 874.467pt x 433.62pt>
+<kdz_files/kdz_27_0.png, id=423, 874.467pt x 433.62pt>
 File: kdz_files/kdz_27_0.png Graphic file (type png)
 <use kdz_files/kdz_27_0.png>
 Package pdftex.def Info: kdz_files/kdz_27_0.png  used on input line 590.
 (pdftex.def)             Requested size: 874.46486pt x 433.61894pt.
  [11 <./kdz_files/kdz_26_0.png> <./kdz_files/kdz_27_0.png>]
-<kdz_files/kdz_28_0.png, id=365, 899.7615pt x 433.62pt>
+<kdz_files/kdz_28_0.png, id=430, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_28_0.png Graphic file (type png)
 <use kdz_files/kdz_28_0.png>
-Package pdftex.def Info: kdz_files/kdz_28_0.png  used on input line 614.
+Package pdftex.def Info: kdz_files/kdz_28_0.png  used on input line 616.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_29_0.png, id=366, 883.8621pt x 433.62pt>
+<kdz_files/kdz_29_0.png, id=431, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_29_0.png Graphic file (type png)
 <use kdz_files/kdz_29_0.png>
-Package pdftex.def Info: kdz_files/kdz_29_0.png  used on input line 619.
+Package pdftex.def Info: kdz_files/kdz_29_0.png  used on input line 621.
 (pdftex.def)             Requested size: 883.85994pt x 433.61894pt.
-<kdz_files/kdz_30_0.png, id=367, 899.7615pt x 433.62pt>
+<kdz_files/kdz_30_0.png, id=432, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_30_0.png Graphic file (type png)
 <use kdz_files/kdz_30_0.png>
-Package pdftex.def Info: kdz_files/kdz_30_0.png  used on input line 635.
+Package pdftex.def Info: kdz_files/kdz_30_0.png  used on input line 637.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [12 <./kdz_files/kdz_28_0.png> <./kdz_files/kdz_29_0.png>]
-<kdz_files/kdz_31_0.png, id=375, 883.8621pt x 433.62pt>
+<kdz_files/kdz_31_0.png, id=440, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_31_0.png Graphic file (type png)
 <use kdz_files/kdz_31_0.png>
-Package pdftex.def Info: kdz_files/kdz_31_0.png  used on input line 640.
+Package pdftex.def Info: kdz_files/kdz_31_0.png  used on input line 642.
 (pdftex.def)             Requested size: 883.85994pt x 433.61894pt.
  [13 <./kdz_files/kdz_30_0.png> <./kdz_files/kdz_31_0.png>]
-<kdz_files/kdz_32_0.png, id=382, 893.2572pt x 433.62pt>
+<kdz_files/kdz_32_0.png, id=447, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_32_0.png Graphic file (type png)
 <use kdz_files/kdz_32_0.png>
-Package pdftex.def Info: kdz_files/kdz_32_0.png  used on input line 668.
+Package pdftex.def Info: kdz_files/kdz_32_0.png  used on input line 670.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_33_0.png, id=383, 905.5431pt x 433.62pt>
+<kdz_files/kdz_33_0.png, id=448, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_33_0.png Graphic file (type png)
 <use kdz_files/kdz_33_0.png>
-Package pdftex.def Info: kdz_files/kdz_33_0.png  used on input line 673.
+Package pdftex.def Info: kdz_files/kdz_33_0.png  used on input line 675.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
-<kdz_files/kdz_34_0.png, id=384, 899.7615pt x 433.62pt>
+<kdz_files/kdz_34_0.png, id=449, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_34_0.png Graphic file (type png)
 <use kdz_files/kdz_34_0.png>
-Package pdftex.def Info: kdz_files/kdz_34_0.png  used on input line 688.
+Package pdftex.def Info: kdz_files/kdz_34_0.png  used on input line 690.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [14 <./kdz_files/kdz_32_0.png> <./kdz_files/kdz_33_0.png>]
-<kdz_files/kdz_35_0.png, id=391, 890.3664pt x 433.62pt>
+<kdz_files/kdz_35_0.png, id=456, 890.3664pt x 433.62pt>
 File: kdz_files/kdz_35_0.png Graphic file (type png)
 <use kdz_files/kdz_35_0.png>
-Package pdftex.def Info: kdz_files/kdz_35_0.png  used on input line 693.
+Package pdftex.def Info: kdz_files/kdz_35_0.png  used on input line 695.
 (pdftex.def)             Requested size: 890.36423pt x 433.61894pt.
  [15 <./kdz_files/kdz_34_0.png> <./kdz_files/kdz_35_0.png>]
-<kdz_files/kdz_36_0.png, id=398, 893.2572pt x 433.62pt>
+<kdz_files/kdz_36_0.png, id=463, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_36_0.png Graphic file (type png)
 <use kdz_files/kdz_36_0.png>
-Package pdftex.def Info: kdz_files/kdz_36_0.png  used on input line 714.
+Package pdftex.def Info: kdz_files/kdz_36_0.png  used on input line 723.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_37_0.png, id=399, 899.7615pt x 433.62pt>
+<kdz_files/kdz_37_0.png, id=464, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_37_0.png Graphic file (type png)
 <use kdz_files/kdz_37_0.png>
-Package pdftex.def Info: kdz_files/kdz_37_0.png  used on input line 719.
+Package pdftex.def Info: kdz_files/kdz_37_0.png  used on input line 728.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_38_0.png, id=400, 893.2572pt x 433.62pt>
+<kdz_files/kdz_38_0.png, id=465, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_38_0.png Graphic file (type png)
 <use kdz_files/kdz_38_0.png>
-Package pdftex.def Info: kdz_files/kdz_38_0.png  used on input line 733.
+Package pdftex.def Info: kdz_files/kdz_38_0.png  used on input line 742.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
  [16 <./kdz_files/kdz_36_0.png> <./kdz_files/kdz_37_0.png>]
-<kdz_files/kdz_39_0.png, id=407, 899.7615pt x 433.62pt>
+<kdz_files/kdz_39_0.png, id=472, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_39_0.png Graphic file (type png)
 <use kdz_files/kdz_39_0.png>
-Package pdftex.def Info: kdz_files/kdz_39_0.png  used on input line 738.
+Package pdftex.def Info: kdz_files/kdz_39_0.png  used on input line 747.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [17 <./kdz_files/kdz_38_0.png> <./kdz_files/kdz_39_0.png>]
-<kdz_files/kdz_40_0.png, id=414, 893.2572pt x 433.62pt>
+<kdz_files/kdz_40_0.png, id=479, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_40_0.png Graphic file (type png)
 <use kdz_files/kdz_40_0.png>
-Package pdftex.def Info: kdz_files/kdz_40_0.png  used on input line 770.
+Package pdftex.def Info: kdz_files/kdz_40_0.png  used on input line 779.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_41_0.png, id=415, 905.5431pt x 433.62pt>
+<kdz_files/kdz_41_0.png, id=480, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_41_0.png Graphic file (type png)
 <use kdz_files/kdz_41_0.png>
-Package pdftex.def Info: kdz_files/kdz_41_0.png  used on input line 775.
+Package pdftex.def Info: kdz_files/kdz_41_0.png  used on input line 784.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
-<kdz_files/kdz_42_0.png, id=416, 899.7615pt x 433.62pt>
+<kdz_files/kdz_42_0.png, id=481, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_42_0.png Graphic file (type png)
 <use kdz_files/kdz_42_0.png>
-Package pdftex.def Info: kdz_files/kdz_42_0.png  used on input line 787.
+Package pdftex.def Info: kdz_files/kdz_42_0.png  used on input line 796.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [18 <./kdz_files/kdz_40_0.png> <./kdz_files/kdz_41_0.png>]
-<kdz_files/kdz_43_0.png, id=424, 905.5431pt x 433.62pt>
+<kdz_files/kdz_43_0.png, id=489, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_43_0.png Graphic file (type png)
 <use kdz_files/kdz_43_0.png>
-Package pdftex.def Info: kdz_files/kdz_43_0.png  used on input line 792.
+Package pdftex.def Info: kdz_files/kdz_43_0.png  used on input line 801.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [19 <./kdz_files/kdz_42_0.png> <./kdz_files/kdz_43_0.png>]
-<kdz_files/kdz_44_0.png, id=431, 893.2572pt x 433.62pt>
+<kdz_files/kdz_44_0.png, id=496, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_44_0.png Graphic file (type png)
 <use kdz_files/kdz_44_0.png>
-Package pdftex.def Info: kdz_files/kdz_44_0.png  used on input line 822.
+Package pdftex.def Info: kdz_files/kdz_44_0.png  used on input line 831.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_45_0.png, id=432, 905.5431pt x 433.62pt>
+<kdz_files/kdz_45_0.png, id=497, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_45_0.png Graphic file (type png)
 <use kdz_files/kdz_45_0.png>
-Package pdftex.def Info: kdz_files/kdz_45_0.png  used on input line 827.
+Package pdftex.def Info: kdz_files/kdz_45_0.png  used on input line 836.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
-<kdz_files/kdz_46_0.png, id=433, 899.7615pt x 433.62pt>
+<kdz_files/kdz_46_0.png, id=498, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_46_0.png Graphic file (type png)
 <use kdz_files/kdz_46_0.png>
-Package pdftex.def Info: kdz_files/kdz_46_0.png  used on input line 838.
+Package pdftex.def Info: kdz_files/kdz_46_0.png  used on input line 847.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [20 <./kdz_files/kdz_44_0.png> <./kdz_files/kdz_45_0.png>]
-<kdz_files/kdz_47_0.png, id=440, 905.5431pt x 433.62pt>
+<kdz_files/kdz_47_0.png, id=505, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_47_0.png Graphic file (type png)
 <use kdz_files/kdz_47_0.png>
-Package pdftex.def Info: kdz_files/kdz_47_0.png  used on input line 843.
+Package pdftex.def Info: kdz_files/kdz_47_0.png  used on input line 852.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [21 <./kdz_files/kdz_46_0.png> <./kdz_files/kdz_47_0.png>]
-<kdz_files/kdz_48_0.png, id=447, 899.7615pt x 433.62pt>
+<kdz_files/kdz_48_0.png, id=512, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_48_0.png Graphic file (type png)
 <use kdz_files/kdz_48_0.png>
-Package pdftex.def Info: kdz_files/kdz_48_0.png  used on input line 874.
+Package pdftex.def Info: kdz_files/kdz_48_0.png  used on input line 883.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_49_0.png, id=448, 883.8621pt x 433.62pt>
+<kdz_files/kdz_49_0.png, id=513, 883.8621pt x 433.62pt>
 File: kdz_files/kdz_49_0.png Graphic file (type png)
 <use kdz_files/kdz_49_0.png>
-Package pdftex.def Info: kdz_files/kdz_49_0.png  used on input line 879.
+Package pdftex.def Info: kdz_files/kdz_49_0.png  used on input line 888.
 (pdftex.def)             Requested size: 883.85994pt x 433.61894pt.
-<kdz_files/kdz_50_0.png, id=449, 899.7615pt x 433.62pt>
+<kdz_files/kdz_50_0.png, id=514, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_50_0.png Graphic file (type png)
 <use kdz_files/kdz_50_0.png>
-Package pdftex.def Info: kdz_files/kdz_50_0.png  used on input line 889.
+Package pdftex.def Info: kdz_files/kdz_50_0.png  used on input line 898.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [22 <./kdz_files/kdz_48_0.png> <./kdz_files/kdz_49_0.png>]
-<kdz_files/kdz_51_0.png, id=456, 890.3664pt x 433.62pt>
+<kdz_files/kdz_51_0.png, id=521, 890.3664pt x 433.62pt>
 File: kdz_files/kdz_51_0.png Graphic file (type png)
 <use kdz_files/kdz_51_0.png>
-Package pdftex.def Info: kdz_files/kdz_51_0.png  used on input line 894.
+Package pdftex.def Info: kdz_files/kdz_51_0.png  used on input line 903.
 (pdftex.def)             Requested size: 890.36423pt x 433.61894pt.
  [23 <./kdz_files/kdz_50_0.png> <./kdz_files/kdz_51_0.png>]
-<kdz_files/kdz_52_0.png, id=463, 893.2572pt x 433.62pt>
+<kdz_files/kdz_52_0.png, id=528, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_52_0.png Graphic file (type png)
 <use kdz_files/kdz_52_0.png>
-Package pdftex.def Info: kdz_files/kdz_52_0.png  used on input line 921.
+Package pdftex.def Info: kdz_files/kdz_52_0.png  used on input line 930.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_53_0.png, id=464, 905.5431pt x 433.62pt>
+<kdz_files/kdz_53_0.png, id=529, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_53_0.png Graphic file (type png)
 <use kdz_files/kdz_53_0.png>
-Package pdftex.def Info: kdz_files/kdz_53_0.png  used on input line 926.
+Package pdftex.def Info: kdz_files/kdz_53_0.png  used on input line 935.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
-<kdz_files/kdz_54_0.png, id=465, 899.7615pt x 433.62pt>
+<kdz_files/kdz_54_0.png, id=530, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_54_0.png Graphic file (type png)
 <use kdz_files/kdz_54_0.png>
-Package pdftex.def Info: kdz_files/kdz_54_0.png  used on input line 938.
+Package pdftex.def Info: kdz_files/kdz_54_0.png  used on input line 947.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
  [24 <./kdz_files/kdz_52_0.png> <./kdz_files/kdz_53_0.png>]
-<kdz_files/kdz_55_0.png, id=473, 905.5431pt x 433.62pt>
+<kdz_files/kdz_55_0.png, id=538, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_55_0.png Graphic file (type png)
 <use kdz_files/kdz_55_0.png>
-Package pdftex.def Info: kdz_files/kdz_55_0.png  used on input line 943.
+Package pdftex.def Info: kdz_files/kdz_55_0.png  used on input line 952.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [25 <./kdz_files/kdz_54_0.png> <./kdz_files/kdz_55_0.png>]
-<kdz_files/kdz_56_0.png, id=480, 893.2572pt x 433.62pt>
+<kdz_files/kdz_56_0.png, id=545, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_56_0.png Graphic file (type png)
 <use kdz_files/kdz_56_0.png>
-Package pdftex.def Info: kdz_files/kdz_56_0.png  used on input line 969.
+Package pdftex.def Info: kdz_files/kdz_56_0.png  used on input line 978.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_57_0.png, id=481, 899.7615pt x 433.62pt>
+<kdz_files/kdz_57_0.png, id=546, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_57_0.png Graphic file (type png)
 <use kdz_files/kdz_57_0.png>
-Package pdftex.def Info: kdz_files/kdz_57_0.png  used on input line 974.
+Package pdftex.def Info: kdz_files/kdz_57_0.png  used on input line 983.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_58_0.png, id=482, 893.2572pt x 433.62pt>
+<kdz_files/kdz_58_0.png, id=547, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_58_0.png Graphic file (type png)
 <use kdz_files/kdz_58_0.png>
-Package pdftex.def Info: kdz_files/kdz_58_0.png  used on input line 989.
+Package pdftex.def Info: kdz_files/kdz_58_0.png  used on input line 998.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
  [26 <./kdz_files/kdz_56_0.png> <./kdz_files/kdz_57_0.png>]
-<kdz_files/kdz_59_0.png, id=489, 905.5431pt x 433.62pt>
+<kdz_files/kdz_59_0.png, id=554, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_59_0.png Graphic file (type png)
 <use kdz_files/kdz_59_0.png>
-Package pdftex.def Info: kdz_files/kdz_59_0.png  used on input line 994.
+Package pdftex.def Info: kdz_files/kdz_59_0.png  used on input line 1003.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
  [27 <./kdz_files/kdz_58_0.png> <./kdz_files/kdz_59_0.png>]
-<kdz_files/kdz_60_0.png, id=496, 893.2572pt x 433.62pt>
+<kdz_files/kdz_60_0.png, id=561, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_60_0.png Graphic file (type png)
 <use kdz_files/kdz_60_0.png>
-Package pdftex.def Info: kdz_files/kdz_60_0.png  used on input line 1022.
+Package pdftex.def Info: kdz_files/kdz_60_0.png  used on input line 1031.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
-<kdz_files/kdz_61_0.png, id=497, 899.7615pt x 433.62pt>
+<kdz_files/kdz_61_0.png, id=562, 899.7615pt x 433.62pt>
 File: kdz_files/kdz_61_0.png Graphic file (type png)
 <use kdz_files/kdz_61_0.png>
-Package pdftex.def Info: kdz_files/kdz_61_0.png  used on input line 1027.
+Package pdftex.def Info: kdz_files/kdz_61_0.png  used on input line 1036.
 (pdftex.def)             Requested size: 899.75931pt x 433.61894pt.
-<kdz_files/kdz_62_0.png, id=498, 893.2572pt x 433.62pt>
+<kdz_files/kdz_62_0.png, id=563, 893.2572pt x 433.62pt>
 File: kdz_files/kdz_62_0.png Graphic file (type png)
 <use kdz_files/kdz_62_0.png>
-Package pdftex.def Info: kdz_files/kdz_62_0.png  used on input line 1042.
+Package pdftex.def Info: kdz_files/kdz_62_0.png  used on input line 1051.
 (pdftex.def)             Requested size: 893.25502pt x 433.61894pt.
  [28 <./kdz_files/kdz_60_0.png> <./kdz_files/kdz_61_0.png>]
-<kdz_files/kdz_63_0.png, id=505, 905.5431pt x 433.62pt>
+<kdz_files/kdz_63_0.png, id=570, 905.5431pt x 433.62pt>
 File: kdz_files/kdz_63_0.png Graphic file (type png)
 <use kdz_files/kdz_63_0.png>
-Package pdftex.def Info: kdz_files/kdz_63_0.png  used on input line 1047.
+Package pdftex.def Info: kdz_files/kdz_63_0.png  used on input line 1056.
 (pdftex.def)             Requested size: 905.5409pt x 433.61894pt.
-<kdz_files/kdz_64_0.png, id=506, 899.7615pt x 454.5783pt>
+ [29 <./kdz_files/kdz_62_0.png> <./kdz_files/kdz_63_0.png>]
+<kdz_files/kdz_64_0.png, id=577, 899.7615pt x 454.5783pt>
 File: kdz_files/kdz_64_0.png Graphic file (type png)
 <use kdz_files/kdz_64_0.png>
-Package pdftex.def Info: kdz_files/kdz_64_0.png  used on input line 1063.
+Package pdftex.def Info: kdz_files/kdz_64_0.png  used on input line 1081.
 (pdftex.def)             Requested size: 899.75931pt x 454.57718pt.
- [29 <./kdz_files/kdz_62_0.png> <./kdz_files/kdz_63_0.png>]
-<kdz_files/kdz_65_0.png, id=513, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_65_0.png, id=578, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_65_0.png Graphic file (type png)
 <use kdz_files/kdz_65_0.png>
-Package pdftex.def Info: kdz_files/kdz_65_0.png  used on input line 1068.
+Package pdftex.def Info: kdz_files/kdz_65_0.png  used on input line 1086.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_66_0.png, id=514, 905.5431pt x 454.5783pt>
+<kdz_files/kdz_66_0.png, id=579, 905.5431pt x 454.5783pt>
 File: kdz_files/kdz_66_0.png Graphic file (type png)
 <use kdz_files/kdz_66_0.png>
-Package pdftex.def Info: kdz_files/kdz_66_0.png  used on input line 1073.
+Package pdftex.def Info: kdz_files/kdz_66_0.png  used on input line 1093.
 (pdftex.def)             Requested size: 905.5409pt x 454.57718pt.
  [30 <./kdz_files/kdz_64_0.png> <./kdz_files/kdz_65_0.png>]
-<kdz_files/kdz_67_0.png, id=522, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_67_0.png, id=587, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_67_0.png Graphic file (type png)
 <use kdz_files/kdz_67_0.png>
-Package pdftex.def Info: kdz_files/kdz_67_0.png  used on input line 1078.
+Package pdftex.def Info: kdz_files/kdz_67_0.png  used on input line 1098.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_68_0.png, id=523, 899.7615pt x 454.5783pt>
+ [31 <./kdz_files/kdz_66_0.png> <./kdz_files/kdz_67_0.png>]
+<kdz_files/kdz_68_0.png, id=594, 899.7615pt x 454.5783pt>
 File: kdz_files/kdz_68_0.png Graphic file (type png)
 <use kdz_files/kdz_68_0.png>
-Package pdftex.def Info: kdz_files/kdz_68_0.png  used on input line 1083.
+Package pdftex.def Info: kdz_files/kdz_68_0.png  used on input line 1112.
 (pdftex.def)             Requested size: 899.75931pt x 454.57718pt.
- [31 <./kdz_files/kdz_66_0.png> <./kdz_files/kdz_67_0.png>]
-<kdz_files/kdz_69_0.png, id=530, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_69_0.png, id=595, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_69_0.png Graphic file (type png)
 <use kdz_files/kdz_69_0.png>
-Package pdftex.def Info: kdz_files/kdz_69_0.png  used on input line 1088.
+Package pdftex.def Info: kdz_files/kdz_69_0.png  used on input line 1117.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_70_0.png, id=531, 905.5431pt x 454.5783pt>
+<kdz_files/kdz_70_0.png, id=596, 905.5431pt x 454.5783pt>
 File: kdz_files/kdz_70_0.png Graphic file (type png)
 <use kdz_files/kdz_70_0.png>
-Package pdftex.def Info: kdz_files/kdz_70_0.png  used on input line 1093.
+Package pdftex.def Info: kdz_files/kdz_70_0.png  used on input line 1124.
 (pdftex.def)             Requested size: 905.5409pt x 454.57718pt.
  [32 <./kdz_files/kdz_68_0.png> <./kdz_files/kdz_69_0.png>]
-<kdz_files/kdz_71_0.png, id=538, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_71_0.png, id=603, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_71_0.png Graphic file (type png)
 <use kdz_files/kdz_71_0.png>
-Package pdftex.def Info: kdz_files/kdz_71_0.png  used on input line 1098.
+Package pdftex.def Info: kdz_files/kdz_71_0.png  used on input line 1129.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_72_0.png, id=539, 899.7615pt x 454.5783pt>
+ [33 <./kdz_files/kdz_70_0.png> <./kdz_files/kdz_71_0.png>]
+<kdz_files/kdz_72_0.png, id=610, 899.7615pt x 454.5783pt>
 File: kdz_files/kdz_72_0.png Graphic file (type png)
 <use kdz_files/kdz_72_0.png>
-Package pdftex.def Info: kdz_files/kdz_72_0.png  used on input line 1103.
+Package pdftex.def Info: kdz_files/kdz_72_0.png  used on input line 1142.
 (pdftex.def)             Requested size: 899.75931pt x 454.57718pt.
- [33 <./kdz_files/kdz_70_0.png> <./kdz_files/kdz_71_0.png>]
-<kdz_files/kdz_73_0.png, id=546, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_73_0.png, id=611, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_73_0.png Graphic file (type png)
 <use kdz_files/kdz_73_0.png>
-Package pdftex.def Info: kdz_files/kdz_73_0.png  used on input line 1108.
+Package pdftex.def Info: kdz_files/kdz_73_0.png  used on input line 1147.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_74_0.png, id=547, 905.5431pt x 454.5783pt>
+<kdz_files/kdz_74_0.png, id=612, 905.5431pt x 454.5783pt>
 File: kdz_files/kdz_74_0.png Graphic file (type png)
 <use kdz_files/kdz_74_0.png>
-Package pdftex.def Info: kdz_files/kdz_74_0.png  used on input line 1113.
+Package pdftex.def Info: kdz_files/kdz_74_0.png  used on input line 1154.
 (pdftex.def)             Requested size: 905.5409pt x 454.57718pt.
  [34 <./kdz_files/kdz_72_0.png> <./kdz_files/kdz_73_0.png>]
-<kdz_files/kdz_75_0.png, id=554, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_75_0.png, id=619, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_75_0.png Graphic file (type png)
 <use kdz_files/kdz_75_0.png>
-Package pdftex.def Info: kdz_files/kdz_75_0.png  used on input line 1118.
+Package pdftex.def Info: kdz_files/kdz_75_0.png  used on input line 1159.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_76_0.png, id=555, 899.7615pt x 454.5783pt>
+ [35 <./kdz_files/kdz_74_0.png> <./kdz_files/kdz_75_0.png>]
+<kdz_files/kdz_76_0.png, id=626, 899.7615pt x 454.5783pt>
 File: kdz_files/kdz_76_0.png Graphic file (type png)
 <use kdz_files/kdz_76_0.png>
-Package pdftex.def Info: kdz_files/kdz_76_0.png  used on input line 1123.
+Package pdftex.def Info: kdz_files/kdz_76_0.png  used on input line 1172.
 (pdftex.def)             Requested size: 899.75931pt x 454.57718pt.
- [35 <./kdz_files/kdz_74_0.png> <./kdz_files/kdz_75_0.png>]
-<kdz_files/kdz_77_0.png, id=562, 883.8621pt x 454.5783pt>
+<kdz_files/kdz_77_0.png, id=627, 883.8621pt x 454.5783pt>
 File: kdz_files/kdz_77_0.png Graphic file (type png)
 <use kdz_files/kdz_77_0.png>
-Package pdftex.def Info: kdz_files/kdz_77_0.png  used on input line 1128.
+Package pdftex.def Info: kdz_files/kdz_77_0.png  used on input line 1177.
 (pdftex.def)             Requested size: 883.85994pt x 454.57718pt.
-<kdz_files/kdz_78_0.png, id=563, 905.5431pt x 454.5783pt>
+<kdz_files/kdz_78_0.png, id=628, 905.5431pt x 454.5783pt>
 File: kdz_files/kdz_78_0.png Graphic file (type png)
 <use kdz_files/kdz_78_0.png>
-Package pdftex.def Info: kdz_files/kdz_78_0.png  used on input line 1133.
+Package pdftex.def Info: kdz_files/kdz_78_0.png  used on input line 1184.
 (pdftex.def)             Requested size: 905.5409pt x 454.57718pt.
  [36 <./kdz_files/kdz_76_0.png> <./kdz_files/kdz_77_0.png>]
-<kdz_files/kdz_79_0.png, id=571, 874.467pt x 454.5783pt>
+<kdz_files/kdz_79_0.png, id=636, 874.467pt x 454.5783pt>
 File: kdz_files/kdz_79_0.png Graphic file (type png)
 <use kdz_files/kdz_79_0.png>
-Package pdftex.def Info: kdz_files/kdz_79_0.png  used on input line 1138.
+Package pdftex.def Info: kdz_files/kdz_79_0.png  used on input line 1189.
 (pdftex.def)             Requested size: 874.46486pt x 454.57718pt.
- [37 <./kdz_files/kdz_78_0.png> <./kdz_files/kdz_79_0.png>] (kdz.aux)
+ [37 <./kdz_files/kdz_78_0.png> <./kdz_files/kdz_79_0.png>] [38] (kdz.aux)
 Package rerunfilecheck Info: File `kdz.out' has not changed.
-(rerunfilecheck)             Checksum: BD8CC55185BD26C49C7AAAC517F8017B;13102.
+(rerunfilecheck)             Checksum: 109EC6071E734B12A67EF6C66F430429;15460.
  ) 
 Here is how much of TeX's memory you used:
- 29203 strings out of 476374
- 527645 string characters out of 5805272
+ 29230 strings out of 476374
+ 528028 string characters out of 5805272
  1869340 words of memory out of 5000000
- 48918 multiletter control sequences out of 15000+600000
+ 48931 multiletter control sequences out of 15000+600000
  528465 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,6n,104p,627b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Ilya\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on kdz.pdf (38 pages, 4829930 bytes).
+Output written on kdz.pdf (39 pages, 4814806 bytes).
 PDF statistics:
- 858 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 777 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 881 words of extra memory for PDF output out of 10000 (max. 10000000)
 

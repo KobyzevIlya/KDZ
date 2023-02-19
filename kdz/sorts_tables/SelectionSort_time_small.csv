@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-SelectionSort values 0-5;1949;3628;6754;10635;15759;21471
-SelectionSort sorted values 0-5;700;2143;4419;7596;15224;19403
-SelectionSort almost sorted values 0-5;1068;3147;8619;12112;17087;19548
-SelectionSort reversed values 0-5;786;2479;5063;8873;13564;19375
-SelectionSort values 0-4000;1719;4242;8093;12705;19188;24465
-SelectionSort sorted values 0-4000;778;2205;4484;7554;11972;16286
-SelectionSort almost sorted values 0-4000;1546;3713;6977;10901;14832;16991
-SelectionSort reversed values 0-4000;1545;3812;7176;11554;16861;23308
+SelectionSort values 0-5;998;3019;5755;9531;13959;19323
+SelectionSort sorted values 0-5;500;2022;4271;7571;11557;16201
+SelectionSort almost sorted values 0-5;981;3013;5910;9410;13698;18187
+SelectionSort reversed values 0-5;528;2288;5435;9723;13976;19773
+SelectionSort values 0-4000;1417;4251;8007;13052;19589;25522
+SelectionSort sorted values 0-4000;501;2000;4319;7658;11647;16733
+SelectionSort almost sorted values 0-4000;1129;3458;6399;10066;14076;17298
+SelectionSort reversed values 0-4000;716;3137;6620;11017;17125;23144

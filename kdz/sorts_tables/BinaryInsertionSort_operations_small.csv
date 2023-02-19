@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-BinaryInsertionSort values 0-5;3390;10094;19333;33321;52481;71968
-BinaryInsertionSort sorted values 0-5;1722;4082;6658;9408;12158;15166
-BinaryInsertionSort almost sorted values 0-5;1929;5114;9196;14436;19676;25276
-BinaryInsertionSort reversed values 0-5;1860;11282;28162;53190;86288;125824
-BinaryInsertionSort values 0-4000;3546;11228;23068;38925;59375;80512
-BinaryInsertionSort sorted values 0-4000;1722;4082;6658;9408;12158;15166
-BinaryInsertionSort almost sorted values 0-4000;2337;6500;11080;17073;24656;31192
-BinaryInsertionSort reversed values 0-4000;4986;18086;38896;67368;103346;147082
+BinaryInsertionSort values 0-5;2973;9864;20145;33625;50382;70290
+BinaryInsertionSort sorted values 0-5;1500;4000;6500;9250;12000;15000
+BinaryInsertionSort almost sorted values 0-5;1974;5569;10024;15089;20547;26380
+BinaryInsertionSort reversed values 0-5;1807;11443;28663;53484;85891;125713
+BinaryInsertionSort values 0-4000;3250;11001;22702;38286;57805;81010
+BinaryInsertionSort sorted values 0-4000;1500;4000;6500;9250;12000;15000
+BinaryInsertionSort almost sorted values 0-4000;2048;5886;10796;16627;22940;29666
+BinaryInsertionSort reversed values 0-4000;4750;18000;38750;67250;103250;147000

@@ -17,8 +17,8 @@ using std::vector;
 // чтобы изменить количество массивов для измерений каждой сортировки (усредненение), используйте переменные
 // measurement_number_for_300 и measurement_number_for_4100
 
-const uint64_t kMeasurementNumberFor300 = 1;
-const uint64_t kMeasurementNumberFor4100 = 1;
+const uint64_t kMeasurementNumberFor300 = 250;
+const uint64_t kMeasurementNumberFor4100 = 250;
 
 // путь для таблиц сортировок
 const std::string kSortTablesPath = "./kdz/sorts_tables/";
@@ -50,6 +50,7 @@ int main() {
     int count_300 = static_cast<int>(kMeasurementNumberFor300);
     int count_4100 = static_cast<int>(kMeasurementNumberFor4100);
 
+    // эталонные массивы
     vector<vector<int>> benchmarks_50_to_300_values_5(count_300);
     vector<vector<int>> benchmarks_50_to_300_values_4000(count_300);
     vector<vector<int>> sorted_benchmarks_50_to_300_values_5(count_300);
@@ -69,6 +70,7 @@ int main() {
     vector<vector<int>> reversed_benchmarks_100_to_4100_values_4000(count_4100);
 
     vector<int> bench_cycle = {count_300, count_4100};
+    // чтобы не писать отдельную генерацию для размеров 300 и 4100, обернул её в один цикл. Так менее понятно, согласен
     for (int cycle = 0; cycle < 2; ++cycle) {
         vector<vector<int>> values_50_to_300 =
                 (!cycle ? benchmarks_50_to_300_values_5 : benchmarks_50_to_300_values_4000);
@@ -88,6 +90,7 @@ int main() {
             vector<int> temp_300(300);
             vector<int> temp_4100(4100);
 
+            // генерация значений для эталонных массивов
             generateRandom(temp_300, !cycle ? 6 : 4001);
             generateRandom(temp_4100, !cycle ? 6 : 4001);
 
@@ -131,6 +134,7 @@ int main() {
                 : reversed_benchmarks_100_to_4100_values_4000) = reversed_values_100_to_4100;
     }
 
+    // объединение эталонных массивов в единый список для удобства
     vector<vector<vector<int>>> benchmarks_50_to_300 = {
             benchmarks_50_to_300_values_5,
             sorted_benchmarks_50_to_300_values_5,
@@ -153,7 +157,10 @@ int main() {
 
     vector<vector<vector<vector<int>>>> benchmarks = {benchmarks_50_to_300, benchmarks_100_to_4100};
 
+    // основной цикл выглядит как сортировка->тип массива(случайный/отсортированный/...)->размер массива(300/4100)->размер части массива(50/100/150/..)->усреднение
+
     for (int sort = 0; sort < sorts_count; ++sort) {
+        // открытие файлов на запись (свой файл для каждой сортировки)
         vector<std::unique_ptr<std::ofstream>> tables_times;
         vector<std::unique_ptr<std::ofstream>> tables_operations;
 
@@ -171,6 +178,7 @@ int main() {
                 new std::ofstream(kSortTablesPath + sort_names[sort] + "_operations_big.csv",
                                   std::ofstream::out | std::ofstream::trunc));
 
+        // вывод названий столбцов
         *tables_times[0] << "Sort";
         *tables_operations[0] << "Sort";
         for (int i = 50; i <= 300; i += 50) {
@@ -189,6 +197,7 @@ int main() {
         *tables_times[1] << '\n';
         *tables_operations[1] << '\n';
 
+        // цикл типов массивов (случайный, отсортированный, почти, обратный) * 2 размера
         for (int array_type = 0; array_type < 8; ++array_type) {
             *tables_times[0] << sort_names[sort] + sort_postfixes_arrays[array_type % 4] +
                                 sort_postfixes_values[array_type >= 4];
@@ -210,17 +219,21 @@ int main() {
                                                           vector<uint64_t>(41)};
             vector<int> it = {0, 0};
 
+            // цикл размера (300, 4100)
             for (int table = 0; table < 2; ++table) {
                 for (int size = start_size[table]; size < max_size[table]; size += step[table]) {
                     uint64_t average_time = 0;
                     uint64_t average_operations = 0;
 
+                    //цикл усреднения. Усреднение выполняется на разных массивах (но одинаковых для каждой сортировки)
                     for (uint64_t count = 0; count < static_cast<uint64_t>(measurement[table]);
                          ++count) {
+                        // копирование части эталона
                         vector<int> to_sort =
                                 vector<int>(benchmarks[table][array_type][count].begin(),
                                             benchmarks[table][array_type][count].begin() + size);
 
+                        // замер времени
                         auto start = std::chrono::high_resolution_clock::now();
 
                         average_operations += sort_functions[sort](to_sort) / measurement[table];
@@ -237,6 +250,7 @@ int main() {
                     ++it[table];
                 }
 
+                // вывод результатов
                 for (auto value: times_values[table]) {
                     *tables_times[table] << ';' << value;
                 }

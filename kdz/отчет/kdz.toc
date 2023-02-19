@@ -52,3 +52,16 @@
 \contentsline {subsection}{\numberline {13.1}Измерение времени}{28}{subsection.13.1}%
 \contentsline {subsection}{\numberline {13.2}Измерение элементарных операций}{29}{subsection.13.2}%
 \contentsline {subsection}{\numberline {13.3}Вывод по наблюдениям}{29}{subsection.13.3}%
+\contentsline {section}{Случайный массив}{30}{section*.16}%
+\contentsline {subsection}{\numberline {14.1}Время}{30}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Элементарные операции}{31}{subsection.14.2}%
+\contentsline {section}{Отсортированный массив}{32}{section*.17}%
+\contentsline {subsection}{\numberline {15.1}Время}{32}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Элементарные операции}{33}{subsection.15.2}%
+\contentsline {section}{Почти отсортированный массив}{34}{section*.18}%
+\contentsline {subsection}{\numberline {16.3}Время}{34}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Элементарные операции}{35}{subsection.16.4}%
+\contentsline {section}{Обратно отсортированный массив}{36}{section*.19}%
+\contentsline {subsection}{\numberline {17.5}Время}{36}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Элементарные операции}{37}{subsection.17.6}%
+\contentsline {section}{Вывод}{38}{section*.20}%

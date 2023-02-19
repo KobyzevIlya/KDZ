@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-ShellSort values 0-5;1422;2428;2994;4539;5534;6128
-ShellSort sorted values 0-5;255;470;779;1032;1257;1720
-ShellSort almost sorted values 0-5;424;875;1383;2195;2276;3032
-ShellSort reversed values 0-5;285;623;1154;1478;1931;2966
-ShellSort values 0-4000;1344;2789;4979;7564;9383;11804
-ShellSort sorted values 0-4000;278;496;809;1035;1276;1753
-ShellSort almost sorted values 0-4000;846;2195;3497;4690;6038;7993
-ShellSort reversed values 0-4000;596;1192;1475;1992;2521;3371
+ShellSort values 0-5;708;1508;2321;3330;4354;5374
+ShellSort sorted values 0-5;26;250;525;790;1000;1524
+ShellSort almost sorted values 0-5;252;754;1292;1854;2296;2959
+ShellSort reversed values 0-5;57;475;840;1189;1531;2191
+ShellSort values 0-4000;1066;2738;4239;6535;8436;10367
+ShellSort sorted values 0-4000;1;250;590;845;1086;1732
+ShellSort almost sorted values 0-4000;521;1657;3197;4794;6201;7565
+ShellSort reversed values 0-4000;92;509;1044;1342;1856;2422

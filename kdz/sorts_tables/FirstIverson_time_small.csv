@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-FirstIverson values 0-5;2518;6260;11092;17630;27040;36959
-FirstIverson sorted values 0-5;87;62;64;78;92;107
-FirstIverson almost sorted values 0-5;326;2563;4397;9372;15512;21833
-FirstIverson reversed values 0-5;874;3157;7250;12995;19623;25803
-FirstIverson values 0-4000;2221;7022;13391;20707;30717;42689
-FirstIverson sorted values 0-4000;78;57;66;81;95;109
-FirstIverson almost sorted values 0-4000;695;3424;6815;12117;19644;28059
-FirstIverson reversed values 0-4000;1157;3025;6534;11777;18897;26071
+FirstIverson values 0-5;2271;8552;15073;23524;30437;38716
+FirstIverson sorted values 0-5;0;0;0;0;0;0
+FirstIverson almost sorted values 0-5;298;1826;4936;10048;14338;20442
+FirstIverson reversed values 0-5;242;3055;7090;12779;18362;25316
+FirstIverson values 0-4000;2610;8921;19743;32277;41677;52259
+FirstIverson sorted values 0-4000;0;0;0;0;0;0
+FirstIverson almost sorted values 0-4000;482;2552;6096;10959;16864;23235
+FirstIverson reversed values 0-4000;1042;3227;6319;9886;15870;22433
