@@ -1254,6 +1254,8 @@ INPUT C:\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Ilya\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 OUTPUT kdz.toc
+INPUT C:\Users\Ilya\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0800.tfm
+INPUT C:\Users\Ilya\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0600.tfm
 INPUT C:\Users\Ilya\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1200.tfm
 INPUT .\kdz_files\kdz_12_0.png
 INPUT .\kdz_files\kdz_12_0.png
@@ -1755,3 +1757,5 @@ INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

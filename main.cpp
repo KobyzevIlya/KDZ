@@ -14,11 +14,11 @@
 
 using std::vector;
 
-// чтобы изменить количество измерений каждой сортировки (усредненение), используйте переменные
+// чтобы изменить количество массивов для измерений каждой сортировки (усредненение), используйте переменные
 // measurement_number_for_300 и measurement_number_for_4100
 
-const uint64_t kMeasurementNumberFor300 = 100;
-const uint64_t kMeasurementNumberFor4100 = 100;
+const uint64_t kMeasurementNumberFor300 = 1;
+const uint64_t kMeasurementNumberFor4100 = 1;
 
 // путь для таблиц сортировок
 const std::string kSortTablesPath = "./kdz/sorts_tables/";
@@ -32,7 +32,7 @@ int main() {
     const int sorts_count = 13;
 
     // указатели на сортировки
-    std::vector<std::function<int(std::vector<int> &)>> sort_functions = {
+    vector<std::function<int(std::vector<int> &)>> sort_functions = {
             selectionSort, bubbleSort, firstIverson, secondIverson, insertionSort, binaryInsertionSort,
             countingSort, radixSort, mergeSort, quickSort, heapSort, ciuraShellSort,
             shellSort};

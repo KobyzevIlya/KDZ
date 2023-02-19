@@ -39,3 +39,4 @@ debug_solution
 fast_solution
 .clang-tidy
 .clang-format
+.vscode

@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-CountingSort values 0-5;118;252;366;511;584;720
-CountingSort sorted values 0-5;175;363;529;662;822;997
-CountingSort almost sorted values 0-5;192;355;520;647;808;995
-CountingSort reversed values 0-5;169;361;592;652;813;998
-CountingSort values 0-4000;5278;5769;6491;6544;6933;7438
-CountingSort sorted values 0-4000;1175;2422;3612;4713;6095;7117
-CountingSort almost sorted values 0-4000;1789;3209;4395;5177;6150;7226
-CountingSort reversed values 0-4000;1137;2303;3522;7013;5877;7058
+CountingSort values 0-5;1102;935;513;613;708;997
+CountingSort sorted values 0-5;311;397;651;794;994;1199
+CountingSort almost sorted values 0-5;329;491;662;732;852;1111
+CountingSort reversed values 0-5;314;398;610;2027;840;1082
+CountingSort values 0-4000;7616;5908;6067;7998;8092;8349
+CountingSort sorted values 0-4000;1559;2824;4002;5302;6794;8402
+CountingSort almost sorted values 0-4000;7665;7748;7814;7928;8058;8355
+CountingSort reversed values 0-4000;1763;3341;4586;5674;6897;8434

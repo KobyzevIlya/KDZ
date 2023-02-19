@@ -55,7 +55,7 @@ void printArray(std::vector<int>& array) {
 }
 
 void swapRandomElements(std::vector<int>& array) {
-    int n = (array.size() + 1) % 10;
+    int n = (array.size() + 1) / 10;
     for (int i = 0; i < n; ++i) {
         int index1 = std::rand() % array.size();
         int index2 = std::rand() % array.size();

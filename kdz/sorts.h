@@ -31,9 +31,9 @@ int selectionSort(std::vector<int> &array) {
 int bubbleSort(std::vector<int> &array) {
     int n = array.size();
     int num_operations = 0;
-    for (int i = 0; i < n - 1; ++i) {
+    for (int i = n - 1; i >= 1; --i) {
         num_operations += 2; // сравнение i + инкремент
-        for (int j = 0; j < n - i - 1; ++j) {
+        for (int j = 0; j < i; ++j) {
             num_operations += 4; // сравнение j, вычисление  - i - 1, сравнение array, инкремент j
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
@@ -44,42 +44,53 @@ int bubbleSort(std::vector<int> &array) {
     return num_operations;
 }
 
-int firstIverson(std::vector<int>& array) {
-    int n = array.size();
-    int num_operations = 0;
-    for (int i = 0; i < n - 1; ++i) {
-        num_operations += 2; // сравнение i, инкремент
-        for (int j = 0; j < n - i - 1; ++j) {
-            num_operations += 4; // сравнение j, вычисление n - i - 1, сравнение array, инкремент j
+int firstIverson(std::vector<int> &array) {
+    int size = array.size();
+    int i = 0;
+    bool t = true;
+    int num_operations = 2; // объявление 2 переменных
+    while (t == true) {
+        t = false;
+        num_operations += 2;
+        for (int j = 0; j < size - i - 1; ++j) {
+            num_operations += 3; // цикл + сравнение
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
-                num_operations += 3; // swap считаем за 3 операции
+                t = true;
+                num_operations += 4; //swap считаем за 3 операции
             }
         }
+        ++i;
+        ++num_operations;
     }
     return num_operations;
 }
 
-
-int secondIverson(std::vector<int>& array) {
-    int n = array.size();
-    bool swapped;
-    int num_operations = 1; // объявление переменной
-    for (int i = 0; i < n - 1; ++i) {
-        swapped = false;
-        num_operations += 3; // сравнение i, присваивание swapped, инкремент
-        for (int j = 0; j < n - i - 1; ++j) {
-            num_operations += 4; // сравнение j, вычисление n - i - 1, сравнение array, инкремент
+int secondIverson(std::vector<int> &array) {
+    int size = array.size();
+    int i = 0;
+    int last_pos = size - i - 1;
+    int new_pos;
+    int num_operations = 4; //объявление 2 переменных, 2 вычитания
+    while (last_pos != 0) {
+        new_pos = -1;
+        num_operations += 2; //цикл, присваивание
+        for (int j = 0; j < last_pos; ++j) {
+            num_operations += 3; //цикл, сравнение
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
-                swapped = true;
-                num_operations += 4; // swap считаем за 3 операции, присваивание swapped
+                new_pos = j;
+                num_operations += 4;
             }
         }
-        num_operations += 1; // сравнение в условии if
-        if (!swapped) {
-            break;
+        num_operations += 2; //сравнение, присваивание
+        if (new_pos== -1) {
+            last_pos = 0;
+        } else {
+            last_pos = new_pos;
         }
+        ++i;
+        ++num_operations;
     }
     return num_operations;
 }
@@ -169,22 +180,22 @@ int countingSort(std::vector<int> &array) {
 int radixSort(std::vector<int> &array) {
     int n = array.size();
     int num_operations = 0;
-    for (int digit = 0; digit < 4; ++digit) {
-        num_operations += 2 + 256 + n; // цикл + объявление 2 векторов
-        std::vector<int> numbers(256, 0);
+    for (int digit = 0; digit < 8; ++digit) {
+        num_operations += 2 + 16 + n; // цикл + объявление 2 векторов
+        std::vector<int> numbers(16, 0); // 16 вместо 256
         std::vector<int> sorted_values(n);
 
         for (int i = 0; i < n; ++i) {
             num_operations += 2 + 4; // цикл, инкремент, сдвиг, умножение, побитовое и
-            ++numbers[(static_cast<unsigned>(array[i]) >> 8 * digit) & 255];
+            ++numbers[(static_cast<unsigned>(array[i]) >> 4 * digit) & 15]; 
         }
-        for (int i = 1; i < 256; ++i) {
+        for (int i = 1; i < 16; ++i) {
             num_operations += 4; // цикл, сложение, присваивание
             numbers[i] += numbers[i - 1];
         }
         for (int i = n - 1; i >= 0; --i) {
             num_operations += 2 + 5; // цикл, инкремент, сдвиг, умножение, побитовое и, присваивание
-            sorted_values[--numbers[(static_cast<unsigned>(array[i]) >> 8 * digit) & 255]] = array[i];
+            sorted_values[--numbers[(static_cast<unsigned>(array[i]) >> 4 * digit) & 15]] = array[i];
         }
 
         array = sorted_values;
@@ -194,7 +205,7 @@ int radixSort(std::vector<int> &array) {
 }
 
 void merge(std::vector<int> &array, int begin, int middle, int end, int& num_operations) {
-    num_operations += end - begin + 2; // объявление вектора, два присваивания
+    num_operations += end - begin + 3; // объявление вектора, два присваивания, вычитание
     std::vector<int> buffer(end - begin);
     int j_begin = begin, j_end = middle;
 
@@ -331,14 +342,12 @@ int heapSort(std::vector<int> &array) {
 
 int ciuraShellSort(std::vector<int> &array) {
     int n = array.size();
-    int num_operations = 1; // присваивание
-    int gap = 1;
-    while (gap < n) {
-        gap = 3 * gap + 1;
-        num_operations += 4; // присваивание, сложение, умножение сравнение
-    }
-    while (gap > 0) {
-        ++num_operations;
+    int num_operations = 9; // присваивание
+    int gaps[] = {1750, 701, 301, 132, 57, 23, 10, 4, 1};
+    int num_gaps = 9;
+    for (int g = 0; g < num_gaps; ++g) {
+        int gap = gaps[g];
+        num_operations += 2; // присваивание, чтение из массива
         for (int i = gap; i < n; ++i) {
             num_operations += 4; // цикл, два присваивания
             int temp = array[i];
@@ -352,11 +361,10 @@ int ciuraShellSort(std::vector<int> &array) {
             array[j] = temp;
             ++num_operations; // присваивание
         }
-        gap /= 3;
-        num_operations += 2; // деление, присваивание
     }
     return num_operations;
 }
+
 
 int shellSort(std::vector<int> &array) {
     int n = array.size();

@@ -4,3 +4,51 @@
 \contentsline {subsection}{\numberline {1.1}Измерение времени}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Измерение элементарных операций}{5}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Вывод по наблюдениям}{5}{subsection.1.3}%
+\contentsline {section}{Сортировка пузырьком}{6}{section*.4}%
+\contentsline {subsection}{\numberline {2.1}Измерение времени}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Измерение элементарных операций}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Вывод по наблюдениям}{7}{subsection.2.3}%
+\contentsline {section}{Сортировка пузырьком с первой оптимизацией Айверсона}{8}{section*.5}%
+\contentsline {subsection}{\numberline {3.1}Измерение времени}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Измерение элементарных операций}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Вывод по наблюдениям}{9}{subsection.3.3}%
+\contentsline {section}{Сортировка пузырьком с первой и второй оптимизациями Айверсона}{10}{section*.6}%
+\contentsline {subsection}{\numberline {4.1}Измерение времени}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Измерение элементарных операций}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Вывод по наблюдениям}{11}{subsection.4.3}%
+\contentsline {section}{Сортировка вставками}{12}{section*.7}%
+\contentsline {subsection}{\numberline {5.1}Измерение времени}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Измерение элементарных операций}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Вывод по наблюдениям}{13}{subsection.5.3}%
+\contentsline {section}{Сортировка бинарными вставками}{14}{section*.8}%
+\contentsline {subsection}{\numberline {6.1}Измерение времени}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Измерение элементарных операций}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Вывод по наблюдениям}{15}{subsection.6.3}%
+\contentsline {section}{Сортировка подсчетом}{16}{section*.9}%
+\contentsline {subsection}{\numberline {7.1}Измерение времени}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Измерение элементарных операций}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Вывод по наблюдениям}{17}{subsection.7.3}%
+\contentsline {section}{Цифровая сортировка}{18}{section*.10}%
+\contentsline {subsection}{\numberline {8.1}Измерение времени}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Измерение элементарных операций}{19}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Вывод по наблюдениям}{19}{subsection.8.3}%
+\contentsline {section}{Сортировка слиянием}{20}{section*.11}%
+\contentsline {subsection}{\numberline {9.1}Измерение времени}{20}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Измерение элементарных операций}{21}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Вывод по наблюдениям}{21}{subsection.9.3}%
+\contentsline {section}{Быстрая сортировка}{22}{section*.12}%
+\contentsline {subsection}{\numberline {10.1}Измерение времени}{22}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Измерение элементарных операций}{23}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Вывод по наблюдениям}{23}{subsection.10.3}%
+\contentsline {section}{Пирамидальная сортировка}{24}{section*.13}%
+\contentsline {subsection}{\numberline {11.1}Измерение времени}{24}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Измерение элементарных операций}{25}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Вывод по наблюдениям}{25}{subsection.11.3}%
+\contentsline {section}{Сортировка Шелла с последовательностью Циура}{26}{section*.14}%
+\contentsline {subsection}{\numberline {12.1}Измерение времени}{26}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Измерение времени}{27}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Вывод по наблюдениям}{27}{subsection.12.3}%
+\contentsline {section}{Сортировка Шелла с последовательностью Шелла}{28}{section*.15}%
+\contentsline {subsection}{\numberline {13.1}Измерение времени}{28}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Измерение элементарных операций}{29}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Вывод по наблюдениям}{29}{subsection.13.3}%
