@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-QuickSort values 0-5;0;0;0;0;0;0
-QuickSort sorted values 0-5;0;0;0;0;0;0
-QuickSort almost sorted values 0-5;0;0;0;0;0;0
-QuickSort reversed values 0-5;0;0;0;0;0;0
-QuickSort values 0-4000;0;0;0;0;0;0
-QuickSort sorted values 0-4000;0;0;0;0;0;0
-QuickSort almost sorted values 0-4000;0;0;0;0;0;0
-QuickSort reversed values 0-4000;0;0;0;0;0;0
+QuickSort values 0-5;1340;3860;7477;12250;17793;24396
+QuickSort sorted values 0-5;3650;7867;12210;16807;21382;26383
+QuickSort almost sorted values 0-5;3417;8276;14779;22165;30185;30993
+QuickSort reversed values 0-5;3812;13029;29295;51091;79839;114169
+QuickSort values 0-4000;1065;2620;4336;6232;8145;10187
+QuickSort sorted values 0-4000;2641;10178;22538;39720;61753;88618
+QuickSort almost sorted values 0-4000;2699;10801;23675;41384;59796;75783
+QuickSort reversed values 0-4000;3300;13000;28900;51000;79400;114100

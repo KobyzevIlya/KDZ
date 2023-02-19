@@ -32,16 +32,16 @@ int main() {
     const int sorts_count = 13;
 
     // указатели на сортировки
-    std::vector<std::function<int(std::vector<int>&)>> sort_functions = {
-        selectionSort, bubbleSort, firstIverson, secondIverson, insertionSort, binaryInsertionSort,
-        countingSort,  radixSort,  mergeSort,    quickSort,     heapSort,      ciuraShellSort,
-        shellSort};
+    std::vector<std::function<int(std::vector<int> &)>> sort_functions = {
+            selectionSort, bubbleSort, firstIverson, secondIverson, insertionSort, binaryInsertionSort,
+            countingSort, radixSort, mergeSort, quickSort, heapSort, ciuraShellSort,
+            shellSort};
 
     // имена сортировок
-    vector<std::string> sort_names = {"SelectionSort", "BubbleSort",    "FirstIverson",
+    vector<std::string> sort_names = {"SelectionSort", "BubbleSort", "FirstIverson",
                                       "SecondIverson", "InsertionSort", "BinaryInsertionSort",
-                                      "CountingSort",  "RadixSort",     "MergeSort",
-                                      "QuickSort",     "HeapSort",      "ShellSortCiura",
+                                      "CountingSort", "RadixSort", "MergeSort",
+                                      "QuickSort", "HeapSort", "ShellSortCiura",
                                       "ShellSort"};
 
     vector<std::string> sort_postfixes_arrays = {"", " sorted", " almost sorted", " reversed"};
@@ -71,14 +71,14 @@ int main() {
     vector<int> bench_cycle = {count_300, count_4100};
     for (int cycle = 0; cycle < 2; ++cycle) {
         vector<vector<int>> values_50_to_300 =
-            (!cycle ? benchmarks_50_to_300_values_5 : benchmarks_50_to_300_values_4000);
+                (!cycle ? benchmarks_50_to_300_values_5 : benchmarks_50_to_300_values_4000);
         int n_300 = values_50_to_300.size();
         vector<vector<int>> sorted_values_50_to_300(n_300);
         vector<vector<int>> almost_sorted_values_50_to_300(n_300);
         vector<vector<int>> reversed_values_50_to_300(n_300);
 
         vector<vector<int>> values_100_to_4100 =
-            (!cycle ? benchmarks_100_to_4100_values_5 : benchmarks_100_to_4100_values_4000);
+                (!cycle ? benchmarks_100_to_4100_values_5 : benchmarks_100_to_4100_values_4000);
         int n_4100 = values_100_to_4100.size();
         vector<vector<int>> sorted_values_100_to_4100(n_4100);
         vector<vector<int>> almost_sorted_values_100_to_4100(n_4100);
@@ -110,12 +110,12 @@ int main() {
             swapRandomElements(almost_sorted_values_100_to_4100[i]);
         }
         (!cycle ? benchmarks_50_to_300_values_5 : benchmarks_50_to_300_values_4000) =
-            values_50_to_300;
+                values_50_to_300;
         (!cycle ? benchmarks_100_to_4100_values_5 : benchmarks_100_to_4100_values_4000) =
-            values_100_to_4100;
+                values_100_to_4100;
 
         (!cycle ? sorted_benchmarks_50_to_300_values_5 : sorted_benchmarks_50_to_300_values_4000) =
-            sorted_values_50_to_300;
+                sorted_values_50_to_300;
         (!cycle ? sorted_benchmarks_100_to_4100_values_5
                 : sorted_benchmarks_100_to_4100_values_4000) = sorted_values_100_to_4100;
 
@@ -123,7 +123,7 @@ int main() {
                 : almost_sorted_benchmarks_50_to_300_values_4000) = almost_sorted_values_50_to_300;
         (!cycle ? almost_sorted_benchmarks_100_to_4100_values_5
                 : almost_sorted_benchmarks_100_to_4100_values_4000) =
-            almost_sorted_values_100_to_4100;
+                almost_sorted_values_100_to_4100;
 
         (!cycle ? reversed_benchmarks_50_to_300_values_5
                 : reversed_benchmarks_50_to_300_values_4000) = reversed_values_50_to_300;
@@ -132,24 +132,24 @@ int main() {
     }
 
     vector<vector<vector<int>>> benchmarks_50_to_300 = {
-        benchmarks_50_to_300_values_5,
-        sorted_benchmarks_50_to_300_values_5,
-        almost_sorted_benchmarks_50_to_300_values_5,
-        reversed_benchmarks_50_to_300_values_5,
-        benchmarks_50_to_300_values_4000,
-        sorted_benchmarks_50_to_300_values_4000,
-        almost_sorted_benchmarks_50_to_300_values_4000,
-        reversed_benchmarks_50_to_300_values_4000};
+            benchmarks_50_to_300_values_5,
+            sorted_benchmarks_50_to_300_values_5,
+            almost_sorted_benchmarks_50_to_300_values_5,
+            reversed_benchmarks_50_to_300_values_5,
+            benchmarks_50_to_300_values_4000,
+            sorted_benchmarks_50_to_300_values_4000,
+            almost_sorted_benchmarks_50_to_300_values_4000,
+            reversed_benchmarks_50_to_300_values_4000};
 
     vector<vector<vector<int>>> benchmarks_100_to_4100 = {
-        benchmarks_100_to_4100_values_5,
-        sorted_benchmarks_100_to_4100_values_5,
-        almost_sorted_benchmarks_100_to_4100_values_5,
-        reversed_benchmarks_100_to_4100_values_5,
-        benchmarks_100_to_4100_values_4000,
-        sorted_benchmarks_100_to_4100_values_4000,
-        almost_sorted_benchmarks_100_to_4100_values_4000,
-        reversed_benchmarks_100_to_4100_values_4000};
+            benchmarks_100_to_4100_values_5,
+            sorted_benchmarks_100_to_4100_values_5,
+            almost_sorted_benchmarks_100_to_4100_values_5,
+            reversed_benchmarks_100_to_4100_values_5,
+            benchmarks_100_to_4100_values_4000,
+            sorted_benchmarks_100_to_4100_values_4000,
+            almost_sorted_benchmarks_100_to_4100_values_4000,
+            reversed_benchmarks_100_to_4100_values_4000};
 
     vector<vector<vector<vector<int>>>> benchmarks = {benchmarks_50_to_300, benchmarks_100_to_4100};
 
@@ -158,18 +158,18 @@ int main() {
         vector<std::unique_ptr<std::ofstream>> tables_operations;
 
         tables_times.emplace_back(
-            new std::ofstream(kSortTablesPath + sort_names[sort] + "_time_small.csv",
-                              std::ofstream::out | std::ofstream::trunc));
+                new std::ofstream(kSortTablesPath + sort_names[sort] + "_time_small.csv",
+                                  std::ofstream::out | std::ofstream::trunc));
         tables_times.emplace_back(
-            new std::ofstream(kSortTablesPath + sort_names[sort] + "_time_big.csv",
-                              std::ofstream::out | std::ofstream::trunc));
+                new std::ofstream(kSortTablesPath + sort_names[sort] + "_time_big.csv",
+                                  std::ofstream::out | std::ofstream::trunc));
 
         tables_operations.emplace_back(
-            new std::ofstream(kSortTablesPath + sort_names[sort] + "_operations_small.csv",
-                              std::ofstream::out | std::ofstream::trunc));
+                new std::ofstream(kSortTablesPath + sort_names[sort] + "_operations_small.csv",
+                                  std::ofstream::out | std::ofstream::trunc));
         tables_operations.emplace_back(
-            new std::ofstream(kSortTablesPath + sort_names[sort] + "_operations_big.csv",
-                              std::ofstream::out | std::ofstream::trunc));
+                new std::ofstream(kSortTablesPath + sort_names[sort] + "_operations_big.csv",
+                                  std::ofstream::out | std::ofstream::trunc));
 
         *tables_times[0] << "Sort";
         *tables_operations[0] << "Sort";
@@ -191,14 +191,14 @@ int main() {
 
         for (int array_type = 0; array_type < 8; ++array_type) {
             *tables_times[0] << sort_names[sort] + sort_postfixes_arrays[array_type % 4] +
-                                    sort_postfixes_values[array_type >= 4];
+                                sort_postfixes_values[array_type >= 4];
             *tables_times[1] << sort_names[sort] + sort_postfixes_arrays[array_type % 4] +
-                                    sort_postfixes_values[array_type >= 4];
+                                sort_postfixes_values[array_type >= 4];
 
             *tables_operations[0] << sort_names[sort] + sort_postfixes_arrays[array_type % 4] +
-                                         sort_postfixes_values[array_type >= 4];
+                                     sort_postfixes_values[array_type >= 4];
             *tables_operations[1] << sort_names[sort] + sort_postfixes_arrays[array_type % 4] +
-                                         sort_postfixes_values[array_type >= 4];
+                                     sort_postfixes_values[array_type >= 4];
 
             vector<int> start_size = {49, 99};
             vector<int> max_size = {300, 4100};
@@ -218,8 +218,8 @@ int main() {
                     for (uint64_t count = 0; count < static_cast<uint64_t>(measurement[table]);
                          ++count) {
                         vector<int> to_sort =
-                            vector<int>(benchmarks[table][array_type][count].begin(),
-                                        benchmarks[table][array_type][count].begin() + size);
+                                vector<int>(benchmarks[table][array_type][count].begin(),
+                                            benchmarks[table][array_type][count].begin() + size);
 
                         auto start = std::chrono::high_resolution_clock::now();
 
@@ -227,7 +227,7 @@ int main() {
 
                         auto elapsed = std::chrono::high_resolution_clock::now() - start;
                         uint64_t nanoseconds =
-                            std::chrono::duration_cast<std::chrono::nanoseconds>(elapsed).count();
+                                std::chrono::duration_cast<std::chrono::nanoseconds>(elapsed).count();
 
                         average_time += (nanoseconds / measurement[table]);
                     }
@@ -237,10 +237,10 @@ int main() {
                     ++it[table];
                 }
 
-                for (auto value : times_values[table]) {
+                for (auto value: times_values[table]) {
                     *tables_times[table] << ';' << value;
                 }
-                for (auto value : operations_values[table]) {
+                for (auto value: operations_values[table]) {
                     *tables_operations[table] << ';' << value;
                 }
                 *tables_times[table] << '\n';

@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-MergeSort values 0-5;0;0;0;0;0;0
-MergeSort sorted values 0-5;0;0;0;0;0;0
-MergeSort almost sorted values 0-5;0;0;0;0;0;0
-MergeSort reversed values 0-5;0;0;0;0;0;0
-MergeSort values 0-4000;0;0;0;0;0;0
-MergeSort sorted values 0-4000;0;0;0;0;0;0
-MergeSort almost sorted values 0-4000;0;0;0;0;0;0
-MergeSort reversed values 0-4000;0;0;0;0;0;0
+MergeSort values 0-5;3500;8100;13000;18300;23500;29200
+MergeSort sorted values 0-5;3500;8100;13000;18300;23500;29200
+MergeSort almost sorted values 0-5;3500;8100;13000;18300;23500;29200
+MergeSort reversed values 0-5;3500;8100;13000;18300;23500;29200
+MergeSort values 0-4000;3500;8100;13000;18300;23500;29200
+MergeSort sorted values 0-4000;3500;8100;13000;18300;23500;29200
+MergeSort almost sorted values 0-4000;3500;8100;13000;18300;23500;29200
+MergeSort reversed values 0-4000;3500;8100;13000;18300;23500;29200

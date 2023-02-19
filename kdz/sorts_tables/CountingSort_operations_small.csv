@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-CountingSort values 0-5;0;0;0;0;0;0
-CountingSort sorted values 0-5;0;0;0;0;0;0
-CountingSort almost sorted values 0-5;0;0;0;0;0;0
-CountingSort reversed values 0-5;0;0;0;0;0;0
-CountingSort values 0-4000;0;0;0;0;0;0
-CountingSort sorted values 0-4000;0;0;0;0;0;0
-CountingSort almost sorted values 0-4000;0;0;0;0;0;0
-CountingSort reversed values 0-4000;0;0;0;0;0;0
+CountingSort values 0-5;600;1200;1800;2400;3000;3600
+CountingSort sorted values 0-5;500;1100;1747;2400;3000;3600
+CountingSort almost sorted values 0-5;515;1128;1772;2400;3000;3600
+CountingSort reversed values 0-5;500;1100;1744;2400;3000;3600
+CountingSort values 0-4000;19674;20710;21474;22129;22775;23408
+CountingSort sorted values 0-4000;3760;7712;11613;15568;19463;23344
+CountingSort almost sorted values 0-4000;5920;11047;14776;17509;20193;23345
+CountingSort reversed values 0-4000;3686;7596;11543;15446;19382;23342

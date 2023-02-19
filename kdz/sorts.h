@@ -6,18 +6,14 @@
 
 // сортировки, сгенерированные chatGPT
 
-// На каждой итерации находим минимальный элемент в оставшейся части массива и меняем его местами с первым неотсортированным элементом. Таким образом,
-// на каждой итерации сортируется по одному элементу, пока не будут отсортированы все элементы.
-
-int selectionSort(std::vector<int>& array) {
+int selectionSort(std::vector<int> &array) {
     int n = array.size();
     int num_operations = 0;
     for (int i = 0; i < n - 1; ++i) {
-        ++num_operations; // сравнение i
         int min_index = i;
-        ++num_operations; //объявление переменной
+        num_operations += 3; // сравнение i, инремент i и объявление переменной
         for (int j = i + 1; j < n; ++j) {
-            ++num_operations; // увеличиваем количество операций при каждом сравнении
+            num_operations += 3; // увеличиваем количество операций при каждом сравнении (в цикле и в array) + инкремент
             if (array[j] < array[min_index]) {
                 min_index = j;
                 ++num_operations; // присваивание
@@ -32,165 +28,179 @@ int selectionSort(std::vector<int>& array) {
     return num_operations;
 }
 
-
-int bubbleSort(std::vector<int>& array) {
+int bubbleSort(std::vector<int> &array) {
     int n = array.size();
+    int num_operations = 0;
     for (int i = 0; i < n - 1; ++i) {
+        num_operations += 2; // сравнение i + инкремент
         for (int j = 0; j < n - i - 1; ++j) {
+            num_operations += 4; // сравнение j, вычисление  - i - 1, сравнение array, инкремент j
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
+                num_operations += 3; // swap считаем за 3 операции
             }
         }
     }
-    return 0;
+    return num_operations;
 }
-
-// Функция сортирует массив в порядке возрастания путем сравнения пар соседних элементов и перестановки их местами, если они находятся в
-// неправильном порядке. Если внутренний цикл не производит никаких перестановок, то это означает, что массив уже отсортирован, и внешний цикл может
-// быть прерван.
-//
-// Условие Айверсона 1 означает, что если в процессе сортировки не было ни одной перестановки элементов, то массив уже отсортирован и дополнительные
-// итерации не требуются. Это помогает сократить время выполнения алгоритма в тех случаях, когда массив уже близок к отсортированному состоянию.
 
 int firstIverson(std::vector<int>& array) {
     int n = array.size();
-    bool swapped;
+    int num_operations = 0;
     for (int i = 0; i < n - 1; ++i) {
-        swapped = false;
+        num_operations += 2; // сравнение i, инкремент
         for (int j = 0; j < n - i - 1; ++j) {
+            num_operations += 4; // сравнение j, вычисление n - i - 1, сравнение array, инкремент j
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
-                swapped = true;
+                num_operations += 3; // swap считаем за 3 операции
             }
         }
-        if (!swapped) {
-            break;  // если не было перестановок, то массив уже отсортирован
-        }
     }
-    return 0;
+    return num_operations;
 }
 
-// В этой оптимизации запоминается позиция последнего обмена на предыдущей итерации внешнего цикла. Эта позиция - верхняя грацица просмотра массива на
-// следующей итерации. Если позиция == 0, то обменов не было и алгоритм завершает работу. Оптимизация позволяет уменьшить количесво проходов
-// внутреннего цикла
 
 int secondIverson(std::vector<int>& array) {
     int n = array.size();
     bool swapped;
+    int num_operations = 1; // объявление переменной
     for (int i = 0; i < n - 1; ++i) {
         swapped = false;
+        num_operations += 3; // сравнение i, присваивание swapped, инкремент
         for (int j = 0; j < n - i - 1; ++j) {
+            num_operations += 4; // сравнение j, вычисление n - i - 1, сравнение array, инкремент
             if (array[j] > array[j + 1]) {
                 std::swap(array[j], array[j + 1]);
                 swapped = true;
+                num_operations += 4; // swap считаем за 3 операции, присваивание swapped
             }
         }
+        num_operations += 1; // сравнение в условии if
         if (!swapped) {
-            break;  // если не было перестановок, то массив уже отсортирован
+            break;
         }
     }
-    return 0;
+    return num_operations;
 }
 
 
-// Внешний цикл проходится по элементам массива, начиная со второго элемента. В каждой итерации внешнего цикла текущий элемент массива, находящийся на
-// позиции i, сравнивается с элементами, находящимися перед ним (начиная с элемента на позиции i - 1) и с помощью внутреннего цикла вставляется на
-// свою правильную позицию в отсортированную часть массива
-
-int insertionSort(std::vector<int>& array) {
+int insertionSort(std::vector<int> &array) {
     int n = array.size();
+    int num_operations = 0;
     for (int i = 1; i < n; ++i) {
         int key = array[i];
         int j = i - 1;
+        num_operations += 6; // присваивание key, j, сравнение i в цикле, два сравнения в while, инкремент
         while (j >= 0 && array[j] > key) {
             array[j + 1] = array[j];
-            j--;
+            --j;
+            num_operations += 2; // присваивание array, декремент j
         }
         array[j + 1] = key;
+        num_operations += 1; // присваивание array
     }
-    return 0;
+    return num_operations;
 }
 
-int binaryInsertionSort(std::vector<int>& array) {
+int binaryInsertionSort(std::vector<int> &array) {
     int n = array.size();
+    int num_operations = 0;
     for (int i = 1; i < n; ++i) {
         int x = array[i];
         int left = 0;
         int right = i - 1;
+        num_operations += 6; // присваивание x, left, right, вычитание, сравнение i, инкремент
         while (left <= right) {
             int mid = left + (right - left) / 2;
+            num_operations += 4; // присваивание, сложение, вычитание, деление, сравнение left и right
             if (array[mid] > x) {
                 right = mid - 1;
+                num_operations += 2; // присваивание right, сравнение array
             } else {
                 left = mid + 1;
+                num_operations += 2; // присваивание left, сравнение array
             }
         }
-        for (int j = i - 1; j >= left; j--) {
+        for (int j = i - 1; j >= left; --j) {
             array[j + 1] = array[j];
+            num_operations += 3; // присваивание array, сравнение j в цикле, декремент
         }
         array[left] = x;
+        ++num_operations; // присваивание array
     }
-    return 0;
+    return num_operations;
 }
 
-int countingSort(std::vector<int>& vec) {
-    // find min and max elements
-    int min = *std::min_element(vec.begin(), vec.end());
-    int max = *std::max_element(vec.begin(), vec.end());
+int countingSort(std::vector<int> &array) {
+    int min = *std::min_element(array.begin(), array.end());
+    int max = *std::max_element(array.begin(), array.end());
 
-    // create count vector
+    int num_operations = array.size() * 2; // для нахождения максимального и минимального элемента надо провести size сравнений
+
+    num_operations += max - min + 1; // объявление вектора
     std::vector<int> count(max - min + 1, 0);
-    for (int x : vec) {
+    for (int x: array) {
         count[x - min]++;
+        num_operations += 2; // проход по массиву и инкремент
     }
 
-    // transform count vector
-    for (int i = 1; i < static_cast<int>(count.size()); i++) {
+    for (int i = 1; i < static_cast<int>(count.size()); ++i) {
+        num_operations += 4; // сравнения i и сложение с присваиванием, инкремент
         count[i] += count[i - 1];
     }
 
-    // create result vector
-    std::vector<int> result(vec.size());
-    for (int i = vec.size() - 1; i >= 0; i--) {
-        int x = vec[i];
+    std::vector<int> result(array.size());
+    num_operations += array.size(); // копирование всех элементов
+    for (int i = array.size() - 1; i >= 0; --i) {
+        int x = array[i];
         int pos = count[x - min] - 1;
         result[pos] = x;
         count[x - min]--;
+        num_operations += 6; //цикл, вычитание, 3 присваивания, декремент, декремент i
     }
 
-    // copy result to vec
-    vec = result;
+    array = result;
+    num_operations += array.size(); // копирование всех элементов
 
-    return 0;
+    return num_operations;
 }
 
-int radixSort(std::vector<int>& array) {
+int radixSort(std::vector<int> &array) {
     int n = array.size();
+    int num_operations = 0;
     for (int digit = 0; digit < 4; ++digit) {
+        num_operations += 2 + 256 + n; // цикл + объявление 2 векторов
         std::vector<int> numbers(256, 0);
         std::vector<int> sorted_values(n);
 
-        // устойчивая сортировка подсчетом
         for (int i = 0; i < n; ++i) {
+            num_operations += 2 + 4; // цикл, инкремент, сдвиг, умножение, побитовое и
             ++numbers[(static_cast<unsigned>(array[i]) >> 8 * digit) & 255];
         }
         for (int i = 1; i < 256; ++i) {
+            num_operations += 4; // цикл, сложение, присваивание
             numbers[i] += numbers[i - 1];
         }
         for (int i = n - 1; i >= 0; --i) {
+            num_operations += 2 + 5; // цикл, инкремент, сдвиг, умножение, побитовое и, присваивание
             sorted_values[--numbers[(static_cast<unsigned>(array[i]) >> 8 * digit) & 255]] = array[i];
         }
 
         array = sorted_values;
+        num_operations += n; // копирование всех элементов
     }
-    return 0;
+    return num_operations;
 }
 
-void merge(std::vector<int>& array, int begin, int middle, int end) {
+void merge(std::vector<int> &array, int begin, int middle, int end, int& num_operations) {
+    num_operations += end - begin + 2; // объявление вектора, два присваивания
     std::vector<int> buffer(end - begin);
     int j_begin = begin, j_end = middle;
 
     for (int i = 0; i < end - begin; ++i) {
+        ++num_operations;
+        num_operations += 4; //сравнение и инкремент, присваивание, инкремент (каждую итерацию только один блок if/else)
         if (j_end == end) {
             buffer[i] = array[j_begin];
             ++j_begin;
@@ -206,146 +216,167 @@ void merge(std::vector<int>& array, int begin, int middle, int end) {
         }
     }
 
+    num_operations += 3; // присваивание, вычитание, присваивание
     int n = end - begin;
     int left = begin;
     for (int i = 0; i < n; ++i) {
+        num_operations += 4; // цикл, присваивание, инкремент
         array[left] = buffer[i];
         ++left;
     }
 }
 
-void mergeSortHelper(std::vector<int>& array, int begin, int end) {
+void mergeSortHelper(std::vector<int> &array, int begin, int end, int& num_operations) {
+    num_operations += 2; // сложение, присваивание
     if (end - begin <= 1) {
         return;
     }
 
     int middle = begin + ((end - begin) / 2);
+    num_operations += 4; // присваивание, сложение, вычитание, деление
 
-    mergeSortHelper(array, begin, middle);
-    mergeSortHelper(array, middle, end);
+    num_operations += 2; // два вызова функций
+    mergeSortHelper(array, begin, middle, num_operations);
+    mergeSortHelper(array, middle, end, num_operations);
 
-    merge(array, begin, middle, end);
+    merge(array, begin, middle, end, num_operations);
 }
 
-// mergeSort разделяет входной массив пополам и рекурсивно вызывает себя на обеих половинах. Когда размер подмассива достигает единицы, вызывается
-// функция merge, которая объединяет два отсортированных подмассива в один отсортированный массив.
+int mergeSort(std::vector<int> &array) {
+    int num_operations = 0;
+    mergeSortHelper(array, 0, array.size(), num_operations);
 
-int mergeSort(std::vector<int>& array) {
-    mergeSortHelper(array, 0, array.size());
-    return 0;
+    return num_operations;
 }
 
-void quickSortHelper(std::vector<int>& array, int left, int right) {
+void quickSortHelper(std::vector<int> &array, int left, int right, int& num_operations) {
+    ++num_operations; // сравнение
     if (left >= right) {
         return;
     }
+    num_operations += 3; // 3 присваивания, сложение
     int pivot = array[left];
     int i = left + 1;
     int j = right;
     while (i <= j) {
+        ++num_operations; // итерация цикла
         while (i <= j && array[i] <= pivot) {
             ++i;
+            num_operations += 3; // два сравнения, инкремент
         }
         while (i <= j && array[j] >= pivot) {
-            j--;
+            --j;
+            num_operations += 2; // два сравнения, декремент
         }
         if (i < j) {
             std::swap(array[i], array[j]);
+            num_operations += 4; // сравнение, swap
         }
     }
     std::swap(array[left], array[j]);
-    quickSortHelper(array, left, j - 1);
-    quickSortHelper(array, j + 1, right);
+    num_operations += 3; // swap считаем за 3 элемента
+    quickSortHelper(array, left, j - 1, num_operations);
+    quickSortHelper(array, j + 1, right, num_operations);
 }
 
-// В качестве опорного используется первый элемент. Он сравнивается с другими, затем массив делится на 2 части: элементы слева от опорного элемента,
-// которые меньше его значения, и элементы справа от опорного элемента, которые больше его значения. Затем quicksort рекурсивно вызывается для каждой
-// половины массива.
-
-int quickSort(std::vector<int>& array) {
-    quickSortHelper(array, 0, array.size() - 1);
-    return 0;
+int quickSort(std::vector<int> &array) {
+    int num_operations = 0;
+    quickSortHelper(array, 0, array.size() - 1, num_operations);
+    return num_operations;
 }
 
-void heapify(std::vector<int>& array, int n, int i) {
+void heapify(std::vector<int> &array, int n, int i, int& num_operations) {
     int left = i * 2 + 1;
     int right = i * 2 + 2;
     int largest = i;
 
+    num_operations += 3 + 2 + 2; // 3 присваивания, два сложения, два умножения
+
     if (left < n && array[left] > array[largest]) {
         largest = left;
+        num_operations += 3; // 2 сравния, присваивание
     }
     if (right < n && array[right] > array[largest]) {
         largest = right;
+        num_operations += 3; // 2 сравния, присваивание
     }
     if (largest != i) {
         std::swap(array[i], array[largest]);
-        heapify(array, n, largest);
+        num_operations += 4; // сравнение, swap
+        heapify(array, n, largest, num_operations);
     }
 }
 
-void buildHeap(std::vector<int>& array) {
+void buildHeap(std::vector<int> &array, int& num_operations) {
     int n = array.size();
     for (int i = n / 2 - 1; i >= 0; --i) {
-        heapify(array, n, i);
+        num_operations += 2; // цикл
+        heapify(array, n, i, num_operations);
     }
 }
 
 // Пирамидальная сортировка
 
-int heapSort(std::vector<int>& array) {
-    buildHeap(array);
+int heapSort(std::vector<int> &array) {
+    int num_operations = 0;
+    buildHeap(array, num_operations);
     int n = array.size();
     for (int i = n - 1; i >= 0; --i) {
         std::swap(array[0], array[i]);
-        heapify(array, i, 0);
+        num_operations += 5; // swap + цикл
+        heapify(array, i, 0, num_operations);
     }
-    return 0;
+    return num_operations;
 }
 
-// Последовательность Циура
-
-int ciuraShellSort(std::vector<int>& array) {
+int ciuraShellSort(std::vector<int> &array) {
     int n = array.size();
-    // Определяем последовательность Циура
+    int num_operations = 1; // присваивание
     int gap = 1;
     while (gap < n) {
         gap = 3 * gap + 1;
+        num_operations += 4; // присваивание, сложение, умножение сравнение
     }
-    // Начинаем сортировку
     while (gap > 0) {
+        ++num_operations;
         for (int i = gap; i < n; ++i) {
+            num_operations += 4; // цикл, два присваивания
             int temp = array[i];
             int j = i;
             while (j >= gap && array[j - gap] > temp) {
+                num_operations += 2; //цикл
                 array[j] = array[j - gap];
                 j -= gap;
+                num_operations += 4; // два присваивания, два вычитания
             }
             array[j] = temp;
+            ++num_operations; // присваивание
         }
         gap /= 3;
+        num_operations += 2; // деление, присваивание
     }
-    return 0;
+    return num_operations;
 }
 
-// Сортировка Шелла
-
-int shellSort(std::vector<int>& array) {
+int shellSort(std::vector<int> &array) {
     int n = array.size();
-    // Выбираем размер шага начиная с половины размера массива и далее уменьшаем его вдвое на каждой итерации.
+    int num_operations = 0;
     for (int gap = n / 2; gap > 0; gap /= 2) {
-        // Перебираем элементы, начиная с gap-го элемента, и сравниваем каждый элемент с предыдущим элементом на шаге gap.
+        num_operations += 2; // цикл
         for (int i = gap; i < n; i += 1) {
+            num_operations += 4; // цикл, два присваивания
             int temp = array[i];
-            // Сравниваем элементы на шаге gap и меняем их местами, если они не в правильном порядке.
             int j;
             for (j = i; j >= gap && array[j - gap] > temp; j -= gap) {
+                num_operations += 4; // два сравнения, присваивание с вычитанием
                 array[j] = array[j - gap];
+                num_operations += 2; // присваивание, вычитание
             }
             array[j] = temp;
+            ++num_operations; // присваивание
         }
     }
-    return 0;
+    return num_operations;
 }
 
 #endif  // ILYA_CPP_SORTS_H

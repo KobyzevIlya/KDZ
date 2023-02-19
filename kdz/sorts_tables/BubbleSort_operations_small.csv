@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-BubbleSort values 0-5;0;0;0;0;0;0
-BubbleSort sorted values 0-5;0;0;0;0;0;0
-BubbleSort almost sorted values 0-5;0;0;0;0;0;0
-BubbleSort reversed values 0-5;0;0;0;0;0;0
-BubbleSort values 0-4000;0;0;0;0;0;0
-BubbleSort sorted values 0-4000;0;0;0;0;0;0
-BubbleSort almost sorted values 0-4000;0;0;0;0;0;0
-BubbleSort reversed values 0-4000;0;0;0;0;0;0
+BubbleSort values 0-5;6231;25737;58137;103870;162844;234882
+BubbleSort sorted values 0-5;4800;19600;44400;79200;124000;178800
+BubbleSort almost sorted values 0-5;4808;19643;44510;79391;124282;179202
+BubbleSort reversed values 0-5;5060;27106;66710;123778;198352;290099
+BubbleSort values 0-4000;6502;26813;60910;108812;170309;245502
+BubbleSort sorted values 0-4000;4800;19600;44400;79200;124000;178800
+BubbleSort almost sorted values 0-4000;4803;19649;44541;79441;124416;179401
+BubbleSort reversed values 0-4000;8300;34100;77400;138200;216561;312398

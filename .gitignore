@@ -34,3 +34,8 @@
 # My ignore
 cmake-build-debug
 .idea
+compile.sh
+debug_solution
+fast_solution
+.clang-tidy
+.clang-format

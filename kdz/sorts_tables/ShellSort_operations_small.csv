@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-ShellSort values 0-5;0;0;0;0;0;0
-ShellSort sorted values 0-5;0;0;0;0;0;0
-ShellSort almost sorted values 0-5;0;0;0;0;0;0
-ShellSort reversed values 0-5;0;0;0;0;0;0
-ShellSort values 0-4000;0;0;0;0;0;0
-ShellSort sorted values 0-4000;0;0;0;0;0;0
-ShellSort almost sorted values 0-4000;0;0;0;0;0;0
-ShellSort reversed values 0-4000;0;0;0;0;0;0
+ShellSort values 0-5;1546;3746;5995;8305;10264;13720
+ShellSort sorted values 0-5;1000;2500;4500;6000;7500;10500
+ShellSort almost sorted values 0-5;1000;2500;4501;6016;7520;10534
+ShellSort reversed values 0-5;1020;2865;5473;7407;9762;13419
+ShellSort values 0-4000;1963;5147;8135;12619;14920;19748
+ShellSort sorted values 0-4000;1000;2500;4500;6000;7500;10500
+ShellSort almost sorted values 0-4000;1018;2620;4770;6460;8186;11313
+ShellSort reversed values 0-4000;1544;4499;7000;9512;12968;17133

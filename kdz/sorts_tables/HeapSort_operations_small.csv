@@ -1,9 +1,9 @@
 Sort;50;100;150;200;250;300
-HeapSort values 0-5;0;0;0;0;0;0
-HeapSort sorted values 0-5;0;0;0;0;0;0
-HeapSort almost sorted values 0-5;0;0;0;0;0;0
-HeapSort reversed values 0-5;0;0;0;0;0;0
-HeapSort values 0-4000;0;0;0;0;0;0
-HeapSort sorted values 0-4000;0;0;0;0;0;0
-HeapSort almost sorted values 0-4000;0;0;0;0;0;0
-HeapSort reversed values 0-4000;0;0;0;0;0;0
+HeapSort values 0-5;3119;7504;12373;17543;22743;28406
+HeapSort sorted values 0-5;923;5098;10384;16048;22101;28450
+HeapSort almost sorted values 0-5;926;5112;10393;16061;22095;28463
+HeapSort reversed values 0-5;1097;4603;9279;14492;19576;25443
+HeapSort values 0-4000;3589;8813;14605;20801;27220;33962
+HeapSort sorted values 0-4000;4005;9809;16124;22882;29655;37034
+HeapSort almost sorted values 0-4000;3995;9781;16078;22870;29637;36982
+HeapSort reversed values 0-4000;3007;7608;12910;18591;24534;30395
