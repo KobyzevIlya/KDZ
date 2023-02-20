@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1676837767 "c:/Users/Ilya/Documents/C++/KDZ/kdz/отчет/kdz.tex" "kdz.pdf" "kdz" 1676837776 0
+["pdflatex"] 1676888741 "c:/Users/Ilya/Documents/C++/KDZ/kdz/отчет/kdz.tex" "kdz.pdf" "kdz" 1676888750 0
   "C:/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
   "C:/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
   "C:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -216,11 +216,11 @@
   "C:/Users/Ilya/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1676764655 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Ilya/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1676764656 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/Ilya/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676751496 23157929 324602fb0e1948117aafa9f0e4e88667 ""
-  "c:/Users/Ilya/Documents/C++/KDZ/kdz/отчет/kdz.tex" 1676837767 63814 c13f71980b0e08f6ad1211bdee46355f ""
-  "kdz.aux" 1676837775 10244 cd572767629e98ba79ce07072e19d009 "pdflatex"
-  "kdz.out" 1676837775 15460 109ec6071e734b12a67ef6c66f430429 "pdflatex"
-  "kdz.tex" 1676837767 63814 c13f71980b0e08f6ad1211bdee46355f ""
-  "kdz.toc" 1676837775 6876 6946d501bf7d88f51be53b69d847804d "pdflatex"
+  "c:/Users/Ilya/Documents/C++/KDZ/kdz/отчет/kdz.tex" 1676888729 63868 8dddbc23d0a5a377c1208962be32ca8a ""
+  "kdz.aux" 1676888750 10244 48ca1d674f17822a4180ffe2e0be1df1 "pdflatex"
+  "kdz.out" 1676888750 15460 27aa430b972b420fea9d7b33451a1a1d "pdflatex"
+  "kdz.tex" 1676888729 63868 8dddbc23d0a5a377c1208962be32ca8a ""
+  "kdz.toc" 1676888750 6876 f534b129b3507008cdd8762bc7178cc2 "pdflatex"
   "kdz_files/kdz_12_0.png" 1676835035 96076 79f1f8885b8b42f20aa2a6787b530106 ""
   "kdz_files/kdz_13_0.png" 1676835035 81235 680abfef3a647554a235c70c03c4b337 ""
   "kdz_files/kdz_14_0.png" 1676835035 86153 12fc7975b98524270391ed48d313f495 ""

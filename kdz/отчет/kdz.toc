@@ -59,9 +59,9 @@
 \contentsline {subsection}{\numberline {15.1}Время}{32}{subsection.15.1}%
 \contentsline {subsection}{\numberline {15.2}Элементарные операции}{33}{subsection.15.2}%
 \contentsline {section}{Почти отсортированный массив}{34}{section*.18}%
-\contentsline {subsection}{\numberline {16.3}Время}{34}{subsection.16.3}%
-\contentsline {subsection}{\numberline {16.4}Элементарные операции}{35}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.1}Время}{34}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Элементарные операции}{35}{subsection.16.2}%
 \contentsline {section}{Обратно отсортированный массив}{36}{section*.19}%
-\contentsline {subsection}{\numberline {17.5}Время}{36}{subsection.17.5}%
-\contentsline {subsection}{\numberline {17.6}Элементарные операции}{37}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.1}Время}{36}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Элементарные операции}{37}{subsection.17.2}%
 \contentsline {section}{Вывод}{38}{section*.20}%
