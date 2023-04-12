@@ -1,12 +1,5 @@
 \documentclass[11pt]{article}
 
-    \usepackage[english, russian]{babel}
-    \usepackage[T2A]{fontenc}
-    \usepackage[utf8]{inputenc}
-
-    \usepackage{leading}
-    \leading{10pt}
-
     \usepackage[breakable]{tcolorbox}
     \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
     
@@ -391,156 +384,75 @@
     
 
 \begin{document}
-
-    \begin{titlepage}
-        \title{\textbf{Контрольное домашнее задание № 2}}
-        \author{Кобызев Илья}
-        \date{}
-        \maketitle
-    \end{titlepage}
     
-    \tableofcontents
-    \newpage
-
-    \section*{\centering Введение}
-    \addcontentsline{toc}{section}{Введение}
-    В этом отчете приведены три алгоритма поиска с кратким описанием, и экпериметнальными результатами времени работы. Для тестирования поиска использовался шаблон переменной длины в диапазоне $\left[ 100 ; 3000 \right]$ с шагом 100, два варианта алфавита из 2 и 4 символов, а также 2 варианта строки поиска длиной 10000 и 100000 символов. Итого получается $2 \text{ типа} \times 2 \text{ размера} \times 3 \text{ алгоритма} = 12$ графиков.
+    \maketitle
     
-    Дополнительно в шаблон поиска на случайные места вставлялось от 1 до 4 символов подстановки \textbf{'?'}, которые равны любому символу из строки поиска, что добавило ещё $4 \text{ варианта символов} \times 3 \text{ алгоритма} \times 2 \text{ размера} \times 2 \text{ типа} = 48$ графиков.
     
-    Для лучших результатов время замерялось $k$ раз и усреднялось.
-    \newpage
 
-    \setcounter{section}{1}
-    \setcounter{subsection}{0}
-    \section*{\centering Наивный алгоритм}
-    \addcontentsline{toc}{section}{Наивный алгоритм}
-
-    \textbf{Наивный алгоритм} сравнивает все возможные подстроки в строке поиска с шаблоном путем простого перебора и посимвольного сравнения.
-
-    Асимптотическая сложность алгоритма составляет $O(n*m)$, где $n$ -- длина строки поиска, а $m$ -- длина шаблона
-    
-    \subsection{Алфавит из 2 символов}
     
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_6_0.png}
     \end{center}
-
-    \subsection{Алфавит из 4 символов}
+    { \hspace*{\fill} \\}
     
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_7_0.png}
     \end{center}
-
-    \subsection{Алфавит из 2 символов, использование символов подстановки}
-
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_8_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_9_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_10_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_11_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_12_0.png}
     \end{center}
-
-    \subsection{Алфавит из 4 символов, использование символов подстановки}
+    { \hspace*{\fill} \\}
     
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_13_0.png}
     \end{center}
     { \hspace*{\fill} \\}
-
-    \subsection{Вывод по наблюдениям}
-    "Плохая" сложность подтвердилась, так как можно заметить значительное увеличение времени поиска при увеличении длины строки поиска.
-
-    Можно заметить, что с увеличением длины шаблона требуемого времени становится меньше. Это объясняется тем, что более длинный шаблон бинарного алфавита имеет меньшую вероятность появления в строке поиска несколько раз, поэтому алгоритм проводит меньше сравнений.
-
-    При использовании символов подстановки не замечено каких-либо значительных изменений.
     
-    \newpage
-
-    \setcounter{section}{2}
-    \setcounter{subsection}{0}
-    \section*{\centering Алгоритм Кнута-Морриса-Пратта}
-    \addcontentsline{toc}{section}{Алгоритм Кнута-Морриса-Пратта}
-
-    \textbf{Алгоритм Кнута-Морриса-Пратта} "--- алгоритм для поиска всех вхождений заданного шаблона в строку за линейное время относительно длины строки. Основная идея алгоритма - использование префикс-суффиксного массива, позволяющего определить, на какую позицию нужно сдвинуть шаблон в случае несовпадения символа.
-    
-    Асимптотическая сложность алгоритма составляет $O(n+m)$.
-
-    \subsection{Алфавит из 2 символов}
-    
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_8_0.png}
-    \end{center}
-
-    \subsection{Алфавит из 4 символов}
-    
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_9_0.png}
-    \end{center}
-
-    \subsection{Алфавит из 2 символов, использование символов подстановки}
-
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_14_0.png}
     \end{center}
-
-    \subsection{Алфавит из 4 символов, использование символов подстановки}
+    { \hspace*{\fill} \\}
     
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_15_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
-    \subsection{Вывод по наблюдениям}
-    Алгоритм КМП показывает лучшее время по сравнению с наивным алгоритмом. Также можно заметить, что время возрастает с возрастанием длины шаблона.
-
-    Использование символов подстановки немного увеличило время работы алгоритма. При этом вариант с 4 символами работает дольше всего.
-    
-    \newpage
-
-    \setcounter{section}{3}
-    \setcounter{subsection}{0}
-    \section*{\centering Алгоритм Кнута-Морриса-Пратта с уточненными гранями}
-    \addcontentsline{toc}{section}{Алгоритм Кнута-Морриса-Пратта с уточненными гранями}
-
-    \textbf{Алгоритм Кнута-Морриса-Пратта с расширенными гранями} "--- алгоритм для поиска всех вхождений заданного шаблона в строку за линейное время относительно длины строки. Алгоритм основан на идее использования расширенных граней, которые являются более точной версией префикс-суффиксных массивов. Расширенная грань определяется как максимальная подстрока, которая является префиксом и суффиксом префикса шаблона.
-    
-    Асимптотическая сложность алгоритма составляет $O(n+m)$.
-
-    \subsection{Алфавит из 2 символов}
-    
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_10_0.png}
-    \end{center}
-
-    \subsection{Алфавит из 4 символов}
-    
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_11_0.png}
-    \end{center}
-
-    \subsection{Алфавит из 2 символов, использование символов подстановки}
-
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_16_0.png}
     \end{center}
-
-    \subsection{Алфавит из 4 символов, использование символов подстановки}
+    { \hspace*{\fill} \\}
     
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{charts_files/charts_17_0.png}
     \end{center}
     { \hspace*{\fill} \\}
-
-    \subsection{Вывод по наблюдениям}
-    При сравнении графиков с предыдущими заметно, что применение уточненных граней немного улучшает время.
-
-    Использование символов подстановки немного увеличило время работы алгоритма.
     
-    \newpage
 
-    \setcounter{section}{4}
-    \section*{\centering Вывод}
-    \addcontentsline{toc}{section}{Вывод}
+    % Add a bibliography block to the postdoc
     
-    По результатм измерений удалось подтвердить то, что наивный алгоритм не является эффективными алгоритмом поиска. Заметна разница между ним и алгоритмом Кнута-Морриса-Пратта, а также между КМП и КМП с уточненными (расширенными гранями).
-
-    Можно сделать вывод о КМП с уточненными гранями, как о самом эффективном алгоритме.
+    
+    
 \end{document}
