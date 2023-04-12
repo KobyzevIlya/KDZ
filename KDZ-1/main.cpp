@@ -17,8 +17,8 @@ using std::vector;
 // чтобы изменить количество массивов для измерений каждой сортировки (усредненение), используйте переменные
 // measurement_number_for_300 и measurement_number_for_4100
 
-const uint64_t kMeasurementNumberFor300 = 250;
-const uint64_t kMeasurementNumberFor4100 = 250;
+const uint64_t kMeasurementNumberFor300 = 1;
+const uint64_t kMeasurementNumberFor4100 = 1;
 
 // путь для таблиц сортировок
 const std::string kSortTablesPath = "./kdz/sorts_tables/";
